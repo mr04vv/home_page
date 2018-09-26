@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("./images/pooh.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+
+body:before {
+  content: "";
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  background: rgba(0,0,0,0.4);
+  pointer-events: none;
+}
