@@ -45,7 +45,7 @@ const Image = styled("img")`
   float: left;
   height: 480px;
   width: 30%;
-  margin: 30px;
+  margin: 20px;
   position: sticky;
   
   @media (max-width: 420px) {
