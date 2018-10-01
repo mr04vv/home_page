@@ -17,16 +17,16 @@ class Gallery extends React.Component {
       <Fragment>
         <SPHeader/>
         <ImageWrapper>
+          <ImageLine>
           <Image src={pooh}></Image>
           <Image src={cin}></Image>
-
-
           <Image src={pome}></Image>
-
+          </ImageLine>
+          <ImageLine>
           <Image src={ad}></Image>
           <Image src={ni}></Image>
-
           <Image src={sun}></Image>
+          </ImageLine>
         </ImageWrapper>
       </Fragment>
     )
@@ -40,10 +40,15 @@ const ImageWrapper = styled("div")`
   display: block;
 `;
 
+const ImageLine = styled("div")`
+  display: inline-block;
+  height: 20%;
+`;
+
 const Image = styled("img")`
   float: left;
-  height: 480px;
-  width: 30%;
+  height: 33%;
+  width: 33%;
   position: sticky;
   
   @media (max-width: 420px) {
