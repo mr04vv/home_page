@@ -32,12 +32,15 @@ const HeaderWrapper = styled("div")`
   position: sticky;
   top: 0;
   z-index: 1000;
+  @media (max-width: 420px) {
+    text-align: center;
+  }
 `;
 
 const Navigation = styled("div")`
   display: inline-block;
   @media (max-width: 420px) {
-    width: 550px;
+    width: 100%;
   }
 `;
 
@@ -75,6 +78,9 @@ const LinkWrapper = styled(Link)`
     
   @media (max-width: 420px) {
     font-weight: bold;
+    margin: 0 20px;
+    font-size: 16px;
+
   }
 `;
 

@@ -38,22 +38,18 @@ class Gallery extends React.Component {
 const ImageWrapper = styled("div")`
   margin-top: 20px;
   display: block;
-  
 `;
 
 const Image = styled("img")`
   float: left;
   height: 480px;
   width: 30%;
-  margin: 20px;
   position: sticky;
   
   @media (max-width: 420px) {
+    float: unset;
     height: unset;
-    width: 140%;
-    margin-left: 40px;
-    margin: 1px;
-
+    width: 100%;
   }
   
     

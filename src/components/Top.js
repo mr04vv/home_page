@@ -19,7 +19,7 @@ class Top extends React.Component {
 
         <ImageWrapper>
           <OrangeImage src={orange} />
-          <Introduction>Belong to: <PageLink href={'https://www.uec.ac.jp/'}>University of Electro Comunications</PageLink>. <PageLink href={'https://nm.cs.uec.ac.jp/'}>Numao Lab</PageLink>. <PageLink href={"https://pol.co.jp/"}>POL Inc</PageLink>.<br/>
+          <Introduction><strong>Belong to:</strong> <PageLink href={'https://www.uec.ac.jp/'}>University of Electro Comunications</PageLink>. <PageLink href={'https://nm.cs.uec.ac.jp/'}>Numao Lab</PageLink>. <PageLink href={"https://pol.co.jp/"}>POL Inc</PageLink>.<br/>
           Hobby: Disney Camera Guitar Programming Volleyball.<br/>
           Programming language: Python React.js Kotlin Golang Java C#<br/>
             <SiteLink href={'https://github.com/mr04vv'} ><SiteImg src={github}/></SiteLink> <SiteLink href={'https://twitter.com/m___04v'}><SiteImg src={twitter}/></SiteLink> <SiteLink href={'https://www.instagram.com/m___04v/'}><SiteImg src={insta}/></SiteLink> <SiteLink href={'https://qiita.com/mr_04v'}><SiteImg src={qiita}/></SiteLink> <SiteLink href={'https://www.facebook.com/mr04vv'}><SiteImg src={face}/></SiteLink>
@@ -42,18 +42,24 @@ const ImageWrapper = styled("div")`
 
 const OrangeImage = styled("img")`
   width: 600px;
+   @media (max-width: 420px) {
+    width: 100%;
+  }
 `;
 
 const Introduction = styled("div")`
-  font-size: 25px;
+  font-size: 25px;x
   margin-top: 30px;
   margin-left: 20px;
   color: white;
   font-family: Consolas, Menlo, 'Liberation Mono', Courier, monospace;
   line-height: 180%;
   @media (max-width: 420px) {
-    width: 550px;
+    width: 100%;
+    font-size: 17px;
     font-weight: bold;
+    margin-left: unset;
+
   }
 `;
 
@@ -100,6 +106,10 @@ const SiteImg = styled("img")`
     -webkit-transform: scale(1.1,1.1);
     -o-transform: scale(1.1,1.1);
     -ms-transform: scale(1.1,1.1);
+  }
+  @media (max-width: 420px) {
+    height: 40px;
+    width: 40px;
   }
 `;
 

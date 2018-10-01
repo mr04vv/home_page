@@ -18,9 +18,15 @@ class Product extends React.Component {
 
   render() {
 
-    const opts = {
+    const opts = window.innerWidth < 420 ? {
       height: '290 ',
-      width: '420',
+      width: '100%',
+      playerVars: { // https://developers.google.com/youtube/player_parameters
+        autoplay: 1
+      }
+    } : {
+      height: '360 ',
+      width: '640',
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 1
       }
@@ -61,8 +67,8 @@ class Product extends React.Component {
           フロントはreact,バックエンドはgo<br/>
           ジェスチャはraspiに9軸センサをつけて取得している。<br/>
           <Slide href={"https://docs.google.com/presentation/d/1ovTRKdkd11u6Z7DYVRaq1fOiCFx_erh79AN1KNfIjOg/edit?usp=sharing"}>発表スライド</Slide>
-
         </DescriptionWrapper>
+
 
         <Title>自家製スマート家電</Title>
         <DescriptionWrapper>
@@ -93,10 +99,6 @@ class Product extends React.Component {
 const YoutubeWrapper = styled("div")`
   position: sticky;
   text-align: center;
-  
-  @media (max-width: 420px) {
-    margin-left: 75px;
-  }
 `;
 
 const DescriptionWrapper = styled("div")`
@@ -108,8 +110,8 @@ const DescriptionWrapper = styled("div")`
   text-align: center;
   color: white;
   @media (max-width: 420px) {
-    font-size: 18px;
-    width:550px;
+    font-size: 11px;
+    width:100%;
   }
   margin-bottom: 70px;
 `;
@@ -123,12 +125,14 @@ const Slide = styled('a')`
 
   @media (max-width: 420px) {
     font-size: 20px;
-    width:550px;
+    width:100%;
+    margin-top: 20px;
+    display: block;
   }
 `;
 
 const Title = styled("div")`
-      margin-top: 80px;
+  margin-top: 80px;
 
   position: sticky;
   font-size: 22px;
@@ -136,9 +140,8 @@ const Title = styled("div")`
   text-align: center;
   color: orange;
   @media (max-width: 420px) {
-
     font-size: 20px;
-    width:550px;
+    width:100%;
   }
 `;
 
