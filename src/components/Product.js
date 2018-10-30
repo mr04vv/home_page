@@ -48,6 +48,7 @@ class Product extends React.Component {
           PythonのFlaskでAPIを立て、APIでサーボモータを制御している。<br/>
           Androidアプリも作成しているため<br/>
           スマホやスマートウォッチのアプリからも開閉可能。<br/>
+          MQTTを使って鍵の開閉状態も監視している。<br/>
           <Slide href={"https://onedrive.live.com/view.aspx?resid=A95CFB7321695A07!25932&ithint=file%2cpptx&app=PowerPoint&authkey=!AK2X_3uWqAgJv7w"}>発表スライド</Slide>
 
         </DescriptionWrapper>
