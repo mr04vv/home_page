@@ -38,7 +38,7 @@ class Product extends React.Component {
         <Title>スマートロック</Title>
         <YoutubeWrapper>
         <YouTube
-          videoId="coupzHx7gWk"
+          videoId="wCM2X8fd6m0"
           opts={opts}
           onReady={this._onReady}
         />
