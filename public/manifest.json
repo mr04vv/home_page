@@ -1,14 +1,19 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Takuto Mori's HP",
+  "name": "Takuto Mori's Home Page",
   "icons": [
     {
       "src": "logo_transparent.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
+    },
+    {
+      "src": "logo3.png",
+      "sizes": "144x144",
+      "type": "image/png"
     }
   ],
-  "start_url": "./index.html",
+  "start_url": "https://taku-mori-gumpooh.com",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
