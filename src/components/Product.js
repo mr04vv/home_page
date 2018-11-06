@@ -163,6 +163,9 @@ const Title = styled("div")`
 `;
 
 const Image = styled("img")`
+  @media (max-width: 420px) {
+    width:100%;
+  }
   display: block;
   margin: 0 auto;
   width: 50%;
