@@ -1,12 +1,9 @@
 import React,{Fragment} from "react"
 import styled from "react-emotion"
-import orange from '../images/orange2.png'
-import github from '../images/github.png'
-import twitter from '../images/twitter.png'
-import qiita from '../images/qiita.png'
-import face from '../images/face.png'
 import SPHeader from './SPHeader'
 import YouTube from 'react-youtube';
+import uroom from '../images/00.gif'
+
 
 class Product extends React.Component {
 
@@ -35,6 +32,25 @@ class Product extends React.Component {
     return (
       <Fragment>
         <SPHeader/>
+        <Title>ゆる〜む</Title>
+
+        <Image src={uroom}/>
+        <YoutubeWrapper>
+          <YouTube
+            videoId="NiOYI1lu_n4"
+            opts={opts}
+            onReady={this._onReady}
+          />
+        </YoutubeWrapper>
+        <DescriptionWrapper>
+          自分の顔をアバターにしてビデオチャットができるブラウザアプリ<br/>
+          映像から顔をトラッキングしてアバターを制御している。<br/>
+          6種類のキャラクターを選ぶことができ<br/>
+          声のピッチ（高さ）を変更することも可能。<br/>
+          実際に使ってみたい方はは以下のゆる〜むをクリック<br/>
+          <Slide href={"https://wrtc-bcee9.firebaseapp.com/"}>ゆる〜む</Slide>
+
+        </DescriptionWrapper>
         <Title>スマートロック</Title>
         <YoutubeWrapper>
         <YouTube
@@ -119,7 +135,7 @@ const DescriptionWrapper = styled("div")`
 
 const Slide = styled('a')`
   position: sticky;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   color: lightcoral;
@@ -146,5 +162,11 @@ const Title = styled("div")`
   }
 `;
 
+const Image = styled("img")`
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  position: sticky;
+`;
 
 export default Product
