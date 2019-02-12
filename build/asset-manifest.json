@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.0850ddbe.css",
-  "main.css.map": "static/css/main.0850ddbe.css.map",
-  "main.js": "static/js/main.ba70f53d.js",
-  "main.js.map": "static/js/main.ba70f53d.js.map",
+  "main.css": "static/css/main.55feee28.css",
+  "main.css.map": "static/css/main.55feee28.css.map",
+  "main.js": "static/js/main.07b717bc.js",
+  "main.js.map": "static/js/main.07b717bc.js.map",
   "static/media/ad.png": "static/media/ad.2e063e51.png",
   "static/media/cin.png": "static/media/cin.e46d8fb6.png",
   "static/media/face.png": "static/media/face.64fa68da.png",
@@ -12,6 +12,7 @@
   "static/media/pome.png": "static/media/pome.ac04788e.png",
   "static/media/pooh.jpg": "static/media/pooh.30de4092.jpg",
   "static/media/pooh.png": "static/media/pooh.c7745c61.png",
+  "static/media/sm.jpg": "static/media/sm.9c7e2c99.jpg",
   "static/media/sun.png": "static/media/sun.8008badd.png",
   "static/media/twitter.png": "static/media/twitter.e53bda49.png"
 }

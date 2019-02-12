@@ -1,12 +1,9 @@
 import React,{Fragment} from "react"
 import styled from "react-emotion"
-import orange from '../images/orange2.png'
-import github from '../images/github.png'
-import twitter from '../images/twitter.png'
-import qiita from '../images/qiita.png'
-import face from '../images/face.png'
 import SPHeader from './SPHeader'
 import YouTube from 'react-youtube';
+import uroom from '../images/00.gif'
+
 
 class Product extends React.Component {
 
@@ -35,10 +32,29 @@ class Product extends React.Component {
     return (
       <Fragment>
         <SPHeader/>
+        <Title>ゆる〜む</Title>
+
+        <Image src={uroom}/>
+        <YoutubeWrapper>
+          <YouTube
+            videoId="NiOYI1lu_n4"
+            opts={opts}
+            onReady={this._onReady}
+          />
+        </YoutubeWrapper>
+        <DescriptionWrapper>
+          自分の顔をアバターにしてビデオチャットができるブラウザアプリ<br/>
+          映像から顔をトラッキングしてアバターを制御している。<br/>
+          6種類のキャラクターを選ぶことができ<br/>
+          声のピッチ（高さ）を変更することも可能。<br/>
+          実際に使ってみたい方はは以下のゆる〜むをクリック<br/>
+          <Slide href={"https://wrtc-bcee9.firebaseapp.com/"}>ゆる〜む</Slide>
+
+        </DescriptionWrapper>
         <Title>スマートロック</Title>
         <YoutubeWrapper>
         <YouTube
-          videoId="coupzHx7gWk"
+          videoId="wCM2X8fd6m0"
           opts={opts}
           onReady={this._onReady}
         />
@@ -48,6 +64,7 @@ class Product extends React.Component {
           PythonのFlaskでAPIを立て、APIでサーボモータを制御している。<br/>
           Androidアプリも作成しているため<br/>
           スマホやスマートウォッチのアプリからも開閉可能。<br/>
+          MQTTを使って鍵の開閉状態も監視している。<br/>
           <Slide href={"https://onedrive.live.com/view.aspx?resid=A95CFB7321695A07!25932&ithint=file%2cpptx&app=PowerPoint&authkey=!AK2X_3uWqAgJv7w"}>発表スライド</Slide>
 
         </DescriptionWrapper>
@@ -118,7 +135,7 @@ const DescriptionWrapper = styled("div")`
 
 const Slide = styled('a')`
   position: sticky;
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   color: lightcoral;
@@ -145,5 +162,14 @@ const Title = styled("div")`
   }
 `;
 
+const Image = styled("img")`
+  @media (max-width: 420px) {
+    width:100%;
+  }
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  position: sticky;
+`;
 
 export default Product

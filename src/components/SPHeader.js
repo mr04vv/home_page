@@ -13,7 +13,6 @@ class SPHeader extends React.Component {
             <LinkWrapper to={"/product"}>Product</LinkWrapper>
             <LinkWrapper to={"/gallery"}>Gallery</LinkWrapper>
           </Navigation>
-
         </HeaderWrapper>
     )
   }

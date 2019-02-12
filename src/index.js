@@ -27,5 +27,5 @@ const Application = () => (
 );
 
 
-ReactDOM.render(<Application />, document.getElementById('root'));
+ReactDOM.render(<Application/>, document.getElementById('root'));
 registerServiceWorker();
