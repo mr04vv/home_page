@@ -22,7 +22,7 @@ class Top extends React.Component {
           <Introduction><strong>Belong to:</strong> <PageLink href={'https://www.uec.ac.jp/'}>University of Electro Comunications</PageLink>. <PageLink href={'https://nm.cs.uec.ac.jp/'}>Numao Lab</PageLink>. <PageLink href={"https://pol.co.jp/"}>POL Inc</PageLink>.<br/>
           Hobby: Disney Camera Guitar Programming Volleyball.<br/>
           Programming language: Python React.js Kotlin Golang Java C#<br/>
-            <SiteLink href={'https://github.com/mr04vv'} ><SiteImg src={github}/></SiteLink> <SiteLink href={'https://twitter.com/m___04v'}><SiteImg src={twitter}/></SiteLink> <SiteLink href={'https://www.instagram.com/m___04v/'}><SiteImg src={insta}/></SiteLink> <SiteLink href={'https://qiita.com/mr_04v'}><SiteImg src={qiita}/></SiteLink> <SiteLink href={'https://www.facebook.com/mr04vv'}><SiteImg src={face}/></SiteLink>
+            <SiteLink href={'https://github.com/mr04vv'} ><SiteImg src={github}/></SiteLink> <SiteLink href={'https://twitter.com/_mooriii'}><SiteImg src={twitter}/></SiteLink> <SiteLink href={'https://www.instagram.com/_mooriiii/'}><SiteImg src={insta}/></SiteLink> <SiteLink href={'https://qiita.com/mooriii'}><SiteImg src={qiita}/></SiteLink> <SiteLink href={'https://www.facebook.com/mr04vv'}><SiteImg src={face}/></SiteLink>
           </Introduction>
 
         </ImageWrapper>
