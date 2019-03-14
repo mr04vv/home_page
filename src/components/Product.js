@@ -33,7 +33,14 @@ class Product extends React.Component {
       <Fragment>
         <SPHeader/>
         <Title>ゆる〜む</Title>
-
+        <DescriptionWrapper>
+          自分の顔をアバターにしてビデオチャットができるブラウザアプリ<br/>
+          映像から顔をトラッキングしてアバターを制御している。<br/>
+          6種類のキャラクターを選ぶことができ<br/>
+          声のピッチ（高さ）を変更することも可能。<br/>
+          実際に使ってみたい方はは以下のゆる〜むをクリック<br/>
+          <Slide href={"https://wrtc-bcee9.firebaseapp.com/"}>ゆる〜む</Slide>
+        </DescriptionWrapper>
         <Image src={uroom}/>
         <YoutubeWrapper>
           <YouTube
@@ -42,23 +49,8 @@ class Product extends React.Component {
             onReady={this._onReady}
           />
         </YoutubeWrapper>
-        <DescriptionWrapper>
-          自分の顔をアバターにしてビデオチャットができるブラウザアプリ<br/>
-          映像から顔をトラッキングしてアバターを制御している。<br/>
-          6種類のキャラクターを選ぶことができ<br/>
-          声のピッチ（高さ）を変更することも可能。<br/>
-          実際に使ってみたい方はは以下のゆる〜むをクリック<br/>
-          <Slide href={"https://wrtc-bcee9.firebaseapp.com/"}>ゆる〜む</Slide>
 
-        </DescriptionWrapper>
         <Title>スマートロック</Title>
-        <YoutubeWrapper>
-        <YouTube
-          videoId="wCM2X8fd6m0"
-          opts={opts}
-          onReady={this._onReady}
-        />
-        </YoutubeWrapper>
         <DescriptionWrapper>
           研究室の鍵をICカードで開け閉めできるようにした作品。<br/>
           PythonのFlaskでAPIを立て、APIでサーボモータを制御している。<br/>
@@ -66,16 +58,23 @@ class Product extends React.Component {
           スマホやスマートウォッチのアプリからも開閉可能。<br/>
           MQTTを使って鍵の開閉状態も監視している。<br/>
           <Slide href={"https://onedrive.live.com/view.aspx?resid=A95CFB7321695A07!25932&ithint=file%2cpptx&app=PowerPoint&authkey=!AK2X_3uWqAgJv7w"}>発表スライド</Slide>
-
         </DescriptionWrapper>
-        <Title>魔法の杖</Title>
         <YoutubeWrapper>
-          <YouTube
-            videoId="eVhEahEsQAs"
-            opts={opts}
-            onReady={this._onReady}
-          />
+        <YouTube
+          videoId="4qRZpKdLZuM"
+          opts={opts}
+          onReady={this._onReady}
+        />
         </YoutubeWrapper>
+        <YoutubeWrapper>
+        <YouTube
+          videoId="eeWKRLmm3Xc"
+          opts={opts}
+          onReady={this._onReady}
+        />
+        </YoutubeWrapper>
+
+        <Title>魔法の杖</Title>
         <DescriptionWrapper>
           IoTハッカソンでの作品。<br/>
           学習したジェスチャーに対してアクションを紐付けIFTTTを経由して様々なイベントを発生させる。<br/>
@@ -85,6 +84,14 @@ class Product extends React.Component {
           ジェスチャはraspiに9軸センサをつけて取得している。<br/>
           <Slide href={"https://docs.google.com/presentation/d/1ovTRKdkd11u6Z7DYVRaq1fOiCFx_erh79AN1KNfIjOg/edit?usp=sharing"}>発表スライド</Slide>
         </DescriptionWrapper>
+        <YoutubeWrapper>
+          <YouTube
+            videoId="eVhEahEsQAs"
+            opts={opts}
+            onReady={this._onReady}
+          />
+        </YoutubeWrapper>
+
 
 
         <Title>自家製スマート家電</Title>
@@ -130,7 +137,7 @@ const DescriptionWrapper = styled("div")`
     font-size: 11px;
     width:100%;
   }
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 `;
 
 const Slide = styled('a')`
