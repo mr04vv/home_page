@@ -39,7 +39,7 @@ class Product extends React.Component {
           6種類のキャラクターを選ぶことができ<br/>
           声のピッチ（高さ）を変更することも可能。<br/>
           実際に使ってみたい方はは以下のゆる〜むをクリック<br/>
-          <Slide href={"https://wrtc-bcee9.firebaseapp.com/"}>ゆる〜む</Slide>
+          <Slide href={"https://uroom-49e1a.firebaseapp.com/"}>ゆる〜む</Slide>
         </DescriptionWrapper>
         <Image src={uroom}/>
         <YoutubeWrapper>
