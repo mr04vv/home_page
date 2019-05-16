@@ -1,6 +1,11 @@
 import React,{Fragment} from 'react'
 import styled from "react-emotion"
 import img from '../images/profile.jpg'
+import github from '../images/github.png'
+import twitter from '../images/twitter.png'
+import qiita from '../images/qiita.png'
+import face from '../images/face.png'
+import insta from '../images/insta.png'
 
 const TopScreen = (props) => (
   <Fragment>
@@ -22,6 +27,7 @@ const TopScreen = (props) => (
       <Hobby>Hobby: Camera Guiter VollerBall</Hobby>
       </ContentWrapper>
     </Content>
+    <SiteLink href={'https://github.com/mr04vv'} ><SiteImg src={github}/></SiteLink> <SiteLink href={'https://twitter.com/_mooriii'}><SiteImg src={twitter}/></SiteLink> <SiteLink href={'https://www.instagram.com/_mooriiii/'}><SiteImg src={insta}/></SiteLink> <SiteLink href={'https://qiita.com/mooriii'}><SiteImg src={qiita}/></SiteLink> <SiteLink href={'https://www.facebook.com/mr04vv'}><SiteImg src={face}/></SiteLink>
     </ProfileWrapper>
   </Fragment>
 )
@@ -98,5 +104,7 @@ const ProgramingSkill = styled("div")`
 const Hobby = styled("div")`
   margin-top: 5px;
 `;
+
+const SiteLink = styled("a")``;
 
 export default TopScreen
