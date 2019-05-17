@@ -38,3 +38,22 @@
   opacity: 1;
 }
 
+.delighter.left-album {
+  transition-delay: 0.3s;
+  transform:translatex(100%); opacity:0;
+}
+.delighter.right-album {
+  transform:translatex(-100%); opacity:0;
+  transition-delay: 0.3s;
+}
+
+.delighter.message {
+  transform:translatey(-100%); opacity:0;
+  transition-delay: 0.3s;
+}
+
+.delighter.album {
+  transform:translatey(0%); opacity:0;
+  transition-delay: 0.3s;
+}
+

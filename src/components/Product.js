@@ -6,24 +6,43 @@ import lock from "../images/lock.jpg"
 import tue from "../images/tue.jpg"
 import qiita from "../images/q.jpg"
 import "../styles/product.css"
+import ProductModal from "./ProductModal"
+
+class Products extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      isOpenModal: false,
+      productId: null
+    }
+  }
+
+  toggleModalStatus(productId) {
+    this.setState({
+      isOpenModal: !this.state.isOpenModal,
+      productId: productId
+    })
+  }
 
 
-const Products = (props) => (
+render() {
+  return (
   <Fragment>
     <Title>Product</Title>
     <ProductWrapper className="product">
       <ProductLine>
-        <Product className="fir" data-delighter ><ProductImage img={uroom}/><ProductName>ゆる〜む</ProductName></Product>
-        <Product className="sec" data-delighter ><ProductImage img={tue}/><ProductName>魔法の杖</ProductName></Product>
+        <Product className="fir" data-delighter ><ProductImage onClick={() => this.toggleModalStatus(1)} img={uroom}/><ProductName>ゆる〜む</ProductName></Product>
+        <Product className="sec" data-delighter ><ProductImage onClick={() => this.toggleModalStatus(2)} img={tue}/><ProductName>魔法の杖</ProductName></Product>
       </ProductLine>
       <ProductLine>
-        <Product className="fir" data-delighter ><ProductImage img={lock}/><ProductName>Smartlock</ProductName></Product>
-        <Product className="sec" data-delighter ><ProductImage img={qiita} pos={"left"}/><ProductName>Qiita</ProductName></Product>
+        <Product className="fir" data-delighter ><ProductImage onClick={() => this.toggleModalStatus(3)} img={lock}/><ProductName>Smartlock</ProductName></Product>
+        <Product className="sec" data-delighter ><ProductImage onClick={() => this.toggleModalStatus(4)} img={qiita} pos={"left"}/><ProductName>Qiita</ProductName></Product>
       </ProductLine>
     </ProductWrapper>
+    <ProductModal isOpen={this.state.isOpenModal} toggleModal={() => this.toggleModalStatus(this.state.productId)} productId={this.state.productId}/>
   </Fragment>
-)
-
+)}
+}
 const Title = styled("div")`
   font-family : 'Josefin Sans', sans-serif;
   font-size: 30px;
@@ -55,10 +74,18 @@ const ProductImage = styled("div")`
   box-shadow: 0 0 15px gray;
   background-size: cover;
   background-position-x: ${props => props ? props.pos : "none"};
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all .3s;
+  transition: all .3s;
   :hover {
     opacity: 0.8;
     cursor: pointer;
     transition: 0.3s;
+    -webkit-transform: translateY(-8px);
+    -ms-transform: translateY(-8px);
+    transform: translateY(-8px);
   }
 `;
 

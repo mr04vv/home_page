@@ -5,6 +5,7 @@ import Scroll from './Scroll'
 import ScrollAbobe from './ScrollAbobe'
 import Profile from './Profile'
 import Product from './Product'
+import Gallery from './Gallery'
 
 class Top extends React.Component {
 
@@ -23,9 +24,10 @@ class Top extends React.Component {
         </Section >
         <Section id="section2" color="#d6f0cd">
           <Product/>
-          <Scroll toId="#section3" toName="Gallaly"/>
+          <Scroll toId="#section3" toName="Gallery"/>
         </Section>
         <Section id="section3" color="#f0dde1">
+          <Gallery/>
           <ScrollAbobe toId="#section1" toName="Profile"/>
         </Section>
       </Fragment>

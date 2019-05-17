@@ -26,7 +26,7 @@ const Profile = (props) => (
         <PageLink id="link4" href={"https://redimpulz.com"}>REDIMPULZ Inc</PageLink>.<br/> 
       </Blongs>
       <ProgramingSkill className="skill" data-delighter>Skill: Python Go Kotlin Javascript(React) Nim C#(Unity)</ProgramingSkill>
-      <Hobby className="hobby" data-delighter>Hobby: Camera<i class="fas fa-camera"></i> Guiter<i class="fas fa-guitar"></i> VollerBall<i class="fas fa-volleyball-ball"></i></Hobby>
+      <Hobby className="hobby" data-delighter>Hobby: Camera<i className="fas fa-camera"></i> Guiter<i className="fas fa-guitar"></i> VollerBall<i className="fas fa-volleyball-ball"></i></Hobby>
       </ContentWrapper>
     </Content>
     <LinkWrapper className="links" data-delighter>
