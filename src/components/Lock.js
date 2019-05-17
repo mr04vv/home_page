@@ -52,6 +52,7 @@ const YoutubeWrapper = styled("div")`
   margin: 20px 0;
   text-align: center;
   display: flex;
+  justify-content: space-evenly;
 `;
 
 const Title = styled("div")`

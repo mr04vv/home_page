@@ -10,11 +10,11 @@ Modal.setAppElement('#root')
 const customStyles = window.innerWidth > 420 ? {
   content : {
     top: "17%",
-    left: "28.5%",
+    left: "23.5%",
     right: "auto",
     bottom: "auto",
     marginRight: "-50%",
-    width: "560px"
+    width: "50%",
   },
   overlay: {
     background: "rgba(0, 0, 0, 0.2)",
