@@ -3,7 +3,7 @@ import styled from "react-emotion"
 import YouTube from 'react-youtube';
 
 const opts = window.innerWidth < 420 ? {
-  height: '290 ',
+  height: '100px ',
   width: '100%',
   playerVars: { // https://developers.google.com/youtube/player_parameters
     autoplay: 1

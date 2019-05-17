@@ -1,4 +1,6 @@
 /* 基本のスタイル */
+@media only screen and (min-width: 750px) {
+
 .delighter {
   transition: all .9s ease-out;
   transform:translatex(100%); opacity:0;
@@ -57,3 +59,4 @@
   transition-delay: 0.3s;
 }
 
+}

@@ -7,7 +7,7 @@ import Europe from "./Europe"
 Modal.setAppElement('#root')
 
 
-const customStyles = {
+const customStyles = window.innerWidth > 420 ? {
   content : {
     top: "17%",
     left: "28.5%",
@@ -15,6 +15,19 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     width: "560px"
+  },
+  overlay: {
+    background: "rgba(0, 0, 0, 0.2)",
+    zIndex: "9999"
+  }
+} : {
+  content : {
+    position: "none",
+    top: "20px",
+    left: "0",
+    right: "auto",
+    bottom: "auto",
+    margin: "0 auto",
   },
   overlay: {
     background: "rgba(0, 0, 0, 0.2)",

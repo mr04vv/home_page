@@ -56,12 +56,18 @@ const Title = styled("div")`
   font-size: 30px;
   margin-top: 60px;
   letter-spacing:3px; 
+  @media (max-width: 420px) {
+    margin-top: 10px;
+  }
 `;
 
 const AlbumWrapper = styled("div")`
   display: flex;
   justify-content: space-evenly;
   margin-top: 130px;
+  @media (max-width: 420px) {
+    margin-top: 40px;
+  }
 `;
 
 const Album = styled("div")`
@@ -79,14 +85,25 @@ const Album = styled("div")`
     opacity: 0.5;
     cursor: pointer;
   }
+  @media (max-width: 420px) {
+    letter-spacing:1px; 
+    margin: 5px;
+    height: 200px;
+    font-size: 12px;
+  }
 `;
 
 const Image = styled("div")`
-margin: 40px auto;
-width: 17vw;
-height: 16vh;
-background: url(${props => props.src}) center center no-repeat;
-background-size: contain;
+  margin: 40px auto;
+  width: 17vw;
+  height: 16vh;
+  background: url(${props => props.src}) center center no-repeat;
+  background-size: contain;
+  @media (max-width: 420px) {
+    margin: 10px auto;
+    font-size: 17px;
+    width: 70%;
+  }
 `;
 
 const AlbumName = styled("div")`
@@ -96,6 +113,10 @@ const AlbumName = styled("div")`
   margin-top: 60px;
   letter-spacing:3px; 
   text-align: center;
+  @media (max-width: 420px) {
+    margin-top: 25px;
+    font-size: 17px;
+  }
 `;
 
 const Message = styled("div")`
@@ -103,5 +124,9 @@ const Message = styled("div")`
   font-size: 20px;
   font-weight: bold;
   margin-top: 100px;
-  letter-spacing:3px;         
+  letter-spacing:3px;      
+  @media (max-width: 420px) {
+    font-size: 17px;
+    letter-spacing:1px;      
+  }   
 `;

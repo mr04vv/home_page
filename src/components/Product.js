@@ -48,21 +48,34 @@ const Title = styled("div")`
   font-size: 30px;
   margin-top: 60px;
   letter-spacing:3px; 
+  @media (max-width: 420px) {
+    margin-top: 10px;
+  }
 `;
 
 const ProductWrapper = styled("div")`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  @media (max-width: 420px) {
+    margin-top: 30px;
+    flex-direction: column;
+  }
 `;
 
 const ProductLine = styled("div")`
   display: block;
+  @media (max-width: 420px) {
+    display: flex;
+  }
 `;
 
 const Product = styled("div")`
   margin: 70px;
   display: block;
+  @media (max-width: 420px) {
+    margin: 20px auto;
+  }
 `;
 
 const ProductImage = styled("div")`
@@ -86,6 +99,10 @@ const ProductImage = styled("div")`
     -webkit-transform: translateY(-8px);
     -ms-transform: translateY(-8px);
     transform: translateY(-8px);
+  }
+  @media (max-width: 420px) {
+    width: 130px;
+    height: 100px;
   }
 `;
 

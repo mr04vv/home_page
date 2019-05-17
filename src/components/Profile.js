@@ -41,6 +41,9 @@ const Title = styled("div")`
   font-size: 30px;
   margin-top: 60px;
   letter-spacing:3px; 
+  @media (max-width: 420px) {
+    margin-top: 10px;
+  }
 `;
 
 const ProfileWrapper = styled("div")`
@@ -53,6 +56,14 @@ const ProfileWrapper = styled("div")`
   font-weight: bold;
   font-size: 17px;
   color: #626363;
+  @media (max-width: 420px) {
+    flex-direction: column;
+    margin-top: 0;
+    letter-spacing:2px;
+    font-family : Josefin Sans;
+    font-weight: bold;
+    font-size: 12px;
+  }
 `;
 
 const ImageWrapper = styled("div")`
@@ -60,6 +71,9 @@ const ImageWrapper = styled("div")`
   height: 30vh;
   display: flex;
   align-items: center;
+  @media (max-width: 420px) {
+    width: 100%;
+  }
 `
 
 const ProfileImage = styled("div")`
@@ -69,6 +83,11 @@ const ProfileImage = styled("div")`
   background: url(${props => props.img}) center center no-repeat;
   box-shadow: 0 0 8px gray;
   background-size: cover;
+  @media (max-width: 420px) {
+    margin: 0 auto;
+    width: 80%;
+    height: 22vh;
+  }
 `;
 
 const ImageContainer = styled("div")`
@@ -90,16 +109,27 @@ const Blongs = styled("div")`
   padding-left:5em;
   text-indent:-5em;
   line-height: 28px;
+  @media (max-width: 420px) {
+    display: none;
+    line-height: 18px;
+  }
   `;
 
 const Content = styled("div")`
   width: 50%;
   text-align: left;
   line-height: 45px;
+  @media (max-width: 420px) {
+    width: 100%;
+    line-height: 18px;
+  }
 `;
 
 const ContentWrapper = styled("div")`
   padding-left: 4vw;
+  @media (max-width: 420px) {
+    text-align: center;
+  }
 `;
 
 const ProgramingSkill = styled("div")`
@@ -107,19 +137,31 @@ const ProgramingSkill = styled("div")`
   padding-left:5em;
   text-indent:-5em;
   line-height: 28px;
+  @media (max-width: 420px) {
+    line-height: 18px;
+    padding-left:0;
+    text-indent:0;
+  }
 `;
 
 const Hobby = styled("div")`
   margin-top: 5px;
+  @media (max-width: 420px) {
+    font-size: 11px;
+  }
 `;
 
-const SiteLink = styled("a")``;
+const SiteLink = styled("a")`
+`;
 
 const LinkWrapper = styled("div")`
   margin-top: 40px;
   display: flex;
   justify-content: inherit;
   width: 45vw;
+  @media (max-width: 420px) {
+  width: 100%;    
+  }
 `;
 
 const SiteImg = styled("img")`
@@ -140,8 +182,9 @@ const SiteImg = styled("img")`
     -ms-transform: scale(1.1,1.1);
   }
   @media (max-width: 420px) {
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
+    margin: 10px auto;
   }
 `;
 

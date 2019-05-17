@@ -92,6 +92,10 @@ const Image = styled("div")`
   height:30vh;
   background: url(${props => props.src}) center center no-repeat;
   background-size: contain;
+  @media (max-width: 420px) {
+    width: 100%; 
+    margin: 0 auto;
+  }
 `;
 
 const FontWrapper = styled("i")`
