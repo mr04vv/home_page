@@ -11,7 +11,7 @@ class ScrollAbobe extends React.Component {
   render() {
       const {toId, toName} = this.props;
     return (
-        <ScrollWrapper offset={() => 100} href={toId}><ScrollBarAbobe></ScrollBarAbobe>{toName}</ScrollWrapper>
+        <ScrollWrapper offset={() => 0} href={toId}><ScrollBarAbobe></ScrollBarAbobe>{toName}</ScrollWrapper>
     )
   }
 }

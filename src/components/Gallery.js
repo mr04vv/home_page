@@ -41,7 +41,7 @@ render() {
         disney land & sea
       </Album>
     </AlbumWrapper>
-    <Message className="message" data-delighter>Thank you for your visiting !</Message>
+    <Message className="message" data-delighter>Thank you for your visit !</Message>
     <AlbumModal isOpen={this.state.isOpenModal} toggleModal={() => this.toggleModalStatus(this.state.albumId)} albumId={this.state.albumId}/>
   </Fragment>
   )
@@ -64,7 +64,7 @@ const Title = styled("div")`
 const AlbumWrapper = styled("div")`
   display: flex;
   justify-content: space-evenly;
-  margin-top: 130px;
+  margin-top: 20px;
   @media (max-width: 420px) {
     margin-top: 40px;
   }
@@ -123,7 +123,7 @@ const Message = styled("div")`
   font-family : 'Josefin Sans', sans-serif;
   font-size: 20px;
   font-weight: bold;
-  margin-top: 100px;
+  margin-top: 5%;
   letter-spacing:3px;      
   @media (max-width: 420px) {
     font-size: 17px;

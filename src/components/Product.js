@@ -56,7 +56,7 @@ const Title = styled("div")`
 const ProductWrapper = styled("div")`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   @media (max-width: 420px) {
     margin-top: 30px;
     flex-direction: column;
@@ -71,7 +71,7 @@ const ProductLine = styled("div")`
 `;
 
 const Product = styled("div")`
-  margin: 70px;
+  margin: 25px;
   display: block;
   @media (max-width: 420px) {
     margin: 20px auto;
@@ -110,7 +110,6 @@ const ProductName = styled("div")`
   margin-top: 20px;
   letter-spacing:1px;
   font-size: 15px;
-  font-family : Josefin Sans;
 `;
 
 export default Products

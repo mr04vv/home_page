@@ -42,6 +42,7 @@ const Section = styled("section")`
   scroll-snap-align: start;
   text-align: center;
   position: relative;
+  scroll-snap-type: y mandatory;
   background-color: ${props => props.color};
 `;
 
