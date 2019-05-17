@@ -4,6 +4,7 @@ import TopScreen from './TopScreen'
 import Scroll from './Scroll'
 import ScrollAbobe from './ScrollAbobe'
 import Profile from './Profile'
+import Product from './Product'
 
 class Top extends React.Component {
 
@@ -21,6 +22,7 @@ class Top extends React.Component {
           <Scroll toId="#section2" toName="Products"/>
         </Section >
         <Section id="section2" color="#d6f0cd">
+          <Product/>
           <Scroll toId="#section3" toName="Gallaly"/>
         </Section>
         <Section id="section3" color="#f0dde1">
