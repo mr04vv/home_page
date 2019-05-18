@@ -72,6 +72,7 @@ const ImageWrapper = styled("div")`
   display: flex;
   align-items: center;
   @media (max-width: 420px) {
+    margin-top: 10px;
     width: 100%;
   }
 `
@@ -120,8 +121,9 @@ const Content = styled("div")`
   text-align: left;
   line-height: 45px;
   @media (max-width: 420px) {
+    margin: 10px 0;
     width: 100%;
-    line-height: 18px;
+    line-height: 25px;
   }
 `;
 
@@ -160,6 +162,7 @@ const LinkWrapper = styled("div")`
   justify-content: inherit;
   width: 45vw;
   @media (max-width: 420px) {
+  margin-top: 10px;
   width: 100%;    
   }
 `;

@@ -57,3 +57,15 @@
   transform:translatey(0%); opacity:0;
   transition-delay: 0.3s;
 }
+
+@media only screen and (max-width: 750px) {
+  .delighter {
+    transition: all .9s ease-out;
+    transform:translatey(100%); opacity:0;
+    transition-duration:0.5s;
+  }
+  .delighter.img {
+    transform:translatey(100%); opacity:0;
+    transition-delay: 0.1s;
+  }
+}

@@ -66,7 +66,7 @@ const AlbumWrapper = styled("div")`
   justify-content: space-evenly;
   margin-top: 20px;
   @media (max-width: 420px) {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 `;
 
@@ -126,6 +126,7 @@ const Message = styled("div")`
   margin-top: 5%;
   letter-spacing:3px;      
   @media (max-width: 420px) {
+    margin-top: 50px;
     font-size: 17px;
     letter-spacing:1px;      
   }   
