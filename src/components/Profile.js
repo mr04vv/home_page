@@ -42,7 +42,7 @@ const Title = styled("div")`
   margin-top: 60px;
   letter-spacing:3px; 
   @media (max-width: 420px) {
-    margin-top: 10px;
+    margin-top: 35px;
   }
 `;
 

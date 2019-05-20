@@ -72,6 +72,11 @@ export const ScrollWrapper = styled(AnchorLink)`
   transition: opacity .3s;
   letter-spacing:3px; 
   padding-top: 60px;
+  @media (max-width: 420px) {
+    padding-top: 0;
+    // margin-bottom: 10px;
+    font-size: 14px;
+  }
 `
 
 export const ScrollBarUnder = styled("span")`
@@ -88,6 +93,12 @@ export const ScrollBarUnder = styled("span")`
   -webkit-animation: sdb 2s infinite;
   animation: sdb 2s infinite;
   box-sizing: border-box;
+  @media (max-width: 420px) {
+    top: -40px;
+    margin-left: -8px;
+    width: 14px;
+    height: 14px;
+  }
 `
 
 export const ScrollBarAbobe = styled("span")`
@@ -104,5 +115,11 @@ export const ScrollBarAbobe = styled("span")`
   transform: rotate(135deg);
   -webkit-animation: sdb2 2s infinite;
   animation: sdb2 2s infinite;
-  box-sizing: border-box
+  box-sizing: border-box;
+  @media (max-width: 420px) {
+    top: -50px;
+    margin-left: -8px;
+    width: 14px;
+    height: 14px;
+  }
 `
