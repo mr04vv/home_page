@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const CardContainer = styled.div`
   width: 32%;
@@ -90,4 +91,8 @@ export const ButtonWrapper = styled.div`
   @media (max-width: 1024px) and (min-width: 421px) {
     width: 100%;
   }
+`;
+
+export const CustomLink = styled(Link)`
+  text-decoration: none;
 `;

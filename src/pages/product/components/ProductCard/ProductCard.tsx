@@ -1,20 +1,18 @@
 import React from 'react';
-import { CardContainer, ButtonWrapper, CardImage, CardDescription, CardName } from './style';
+import { Link } from 'react-router-dom';
+import { CardContainer, ButtonWrapper, CardImage, CardDescription, CardName, CustomLink } from './style';
 import { CommonGreenButton } from '../../../../components/CommonButton';
+import { ProductContent } from '../../productContent';
 
-interface Props {
-  src: string;
-  description: string;
-  name: string;
-}
-
-export const ProductCard: React.SFC<Props> = ({ src, description, name }) => (
+export const ProductCard: React.SFC<ProductContent> = ({ src, description, name, url }) => (
   <CardContainer>
     <CardImage src={src} />
     <CardName>{name}</CardName>
     <CardDescription>{description}</CardDescription>
     <ButtonWrapper>
-      <CommonGreenButton>Show more</CommonGreenButton>
+      <CustomLink to={{ pathname: url }} target={name === 'Qiita' ? '_blank' : ''} rel="noopener noreferrer">
+        <CommonGreenButton>Show more</CommonGreenButton>
+      </CustomLink>
     </ButtonWrapper>
   </CardContainer>
 );
