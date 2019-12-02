@@ -1,0 +1,1 @@
+export { GalleryDetailCard } from './GalleryDetailCard';
