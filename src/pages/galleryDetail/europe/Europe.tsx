@@ -14,7 +14,7 @@ export const Europe = () => {
 
       <Container>
         {europeContent.map((u: GalleryDetailContent) => (
-          <GalleryDetailCard src={u.src} />
+          <GalleryDetailCard key={u.src} src={u.src} />
         ))}
       </Container>
     </ContentContainer>

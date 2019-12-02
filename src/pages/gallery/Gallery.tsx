@@ -18,10 +18,10 @@ export const Gallery = () => {
       <Heading>Gallery</Heading>
       <Container>
         {galleryContent.map((g: GalleryContent) => (
-          <GalleryCard src={g.src} name={g.name} path={g.path} description={g.description} />
+          <GalleryCard key={g.name} src={g.src} name={g.name} path={g.path} description={g.description} />
         ))}
-        {dummyCard.map(() => (
-          <DummyGalleyCard />
+        {dummyCard.map((d: number) => (
+          <DummyGalleyCard key={d} />
         ))}
       </Container>
     </ContentContainer>

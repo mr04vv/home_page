@@ -13,7 +13,7 @@ export const Disney = () => {
       <Heading>Disney Photos</Heading>
       <Container>
         {disneyContent.map((u: GalleryDetailContent) => (
-          <GalleryDetailCard src={u.src} />
+          <GalleryDetailCard key={u.src} src={u.src} />
         ))}
       </Container>
     </ContentContainer>

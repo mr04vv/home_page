@@ -19,6 +19,7 @@ export const Work = () => {
       <Container>
         {workContent.map((p: WorkContent) => (
           <WorkCard
+            key={p.name}
             src={p.src}
             description={p.description}
             name={p.name}
@@ -27,8 +28,8 @@ export const Work = () => {
             url={p.url}
           />
         ))}
-        {dummyCard.map(() => (
-          <DummyWorkCard />
+        {dummyCard.map((d: number) => (
+          <DummyWorkCard key={d} />
         ))}
       </Container>
     </ContentContainer>

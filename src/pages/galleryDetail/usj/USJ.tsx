@@ -12,7 +12,7 @@ export const USJ = () => {
       <Heading>USJ Photos</Heading>
       <Container>
         {usjContent.map((u: GalleryDetailContent) => (
-          <GalleryDetailCard src={u.src} />
+          <GalleryDetailCard key={u.src} src={u.src} />
         ))}
       </Container>
     </ContentContainer>
