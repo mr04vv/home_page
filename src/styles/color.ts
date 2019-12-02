@@ -12,3 +12,4 @@ export const HOVER_BLUE_COLOR = '#3f8ba9';
 export const ORANGE_COLOR = '#ef9b33';
 export const HOVER_ORANGE_COLOR = '#d48a2e';
 export const ICON_COLOR_DARK_GRAY = '#333333';
+export const BORDER_GRAY = '#CCCCCC';

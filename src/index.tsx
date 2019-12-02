@@ -7,6 +7,13 @@ import registerServiceWorker from './registerServiceWorker';
 import { TopViewContainer } from './pages/top';
 import { Header } from './components/Header';
 import { Disney, Europe, USJ } from './pages/galleryDetail';
+import { TapiTapi } from './pages/productDetail/tapitapi';
+import { Capybalife } from './pages/productDetail/capybalife';
+import { Uroom } from './pages/productDetail/uroom';
+import { Qolab } from './pages/productDetail/qolab';
+import { Magic } from './pages/productDetail/magic';
+import { SmartLock } from './pages/productDetail/smartLock';
+import { Ytube } from './pages/productDetail/ytube';
 
 const Application = () => (
   <Fragment>
@@ -15,14 +22,13 @@ const Application = () => (
         <Header />
         <Switch>
           <Route exact path="/" component={TopViewContainer} />
-          <Route exact path="/work/uroom" component={Disney} />
-          <Route exact path="/work/ytube" component={Europe} />
-          <Route exact path="/work/magic" component={USJ} />
-          <Route exact path="/work/smart-lock" component={Disney} />
-          <Route exact path="/work/qolab" component={Europe} />
-          <Route exact path="/work/qiita" component={USJ} />
-          <Route exact path="/work/capybalife" component={Disney} />
-          <Route exact path="/work/tapitapi" component={Europe} />
+          <Route exact path="/works/uroom" component={Uroom} />
+          <Route exact path="/works/ytube" component={Ytube} />
+          <Route exact path="/works/magic" component={Magic} />
+          <Route exact path="/works/smart-lock" component={SmartLock} />
+          <Route exact path="/works/qolab" component={Qolab} />
+          <Route exact path="/works/capybalife" component={Capybalife} />
+          <Route exact path="/works/tapitapi" component={TapiTapi} />
           <Route exact path="/gallery/disney" component={Disney} />
           <Route exact path="/gallery/europe" component={Europe} />
           <Route exact path="/gallery/usj" component={USJ} />

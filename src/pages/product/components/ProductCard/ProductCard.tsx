@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { CardContainer, ButtonWrapper, CardImage, CardDescription, CardName, CustomLink } from './style';
 import { CommonGreenButton } from '../../../../components/CommonButton';
 import { ProductContent } from '../../productContent';
