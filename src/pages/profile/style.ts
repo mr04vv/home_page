@@ -78,3 +78,10 @@ export const ProfileItem = styled.p`
     margin: 2px auto;
   }
 `;
+
+export const IconContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 40px auto 0;
+`;
