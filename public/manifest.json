@@ -1,7 +1,8 @@
 {
   "short_name": "mooriii's HP",
   "name": "Takuto Mori's Home Page",
-  "icons": [{
+  "icons": [
+    {
       "src": "logo_transparent.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"

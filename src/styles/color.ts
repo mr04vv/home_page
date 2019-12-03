@@ -1,0 +1,15 @@
+export const FONT_COLOR_GRAY = '#5a5a5a';
+export const FONT_COLOR_WHITE = '#fff';
+export const TOP_BG_COLOR = '#e4f9d2';
+export const PROFILE_BG_COLOR = 'rgb(211, 245, 255)';
+export const PRODUCT_BG_COLOR = '#e4f9d2';
+export const WORK_BG_COLOR = '#e4f9d2';
+export const GALLERY_BG_COLOR = 'rgb(211, 245, 255)';
+export const GREEN_COLOR = '#82be28';
+export const HOVER_GREEN_COLOR = '#6ca01e';
+export const BLUE_COLOR = '#4db7e0';
+export const HOVER_BLUE_COLOR = '#3f8ba9';
+export const ORANGE_COLOR = '#ef9b33';
+export const HOVER_ORANGE_COLOR = '#d48a2e';
+export const ICON_COLOR_DARK_GRAY = '#333333';
+export const BORDER_GRAY = '#CCCCCC';
