@@ -19,7 +19,15 @@ export const Product = () => {
 
       <Container>
         {productContent.map((p: ProductContent) => (
-          <ProductCard key={p.name} src={p.src} description={p.description} name={p.name} url={p.url} />
+          <ProductCard
+            key={p.name}
+            src={p.src}
+            description={p.description}
+            name={p.name}
+            url={p.url}
+            buttonWord={p.buttonWord}
+            isOuterLink={p.isOuterLink}
+          />
         ))}
         {dummyCard.map((d: number) => (
           <DummyProductCard key={d} />

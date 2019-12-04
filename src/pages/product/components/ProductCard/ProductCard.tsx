@@ -3,14 +3,14 @@ import { CardContainer, ButtonWrapper, CardImage, CardDescription, CardName, Cus
 import { CommonGreenButton } from '../../../../components/CommonButton';
 import { ProductContent } from '../../productContent';
 
-export const ProductCard: React.SFC<ProductContent> = ({ src, description, name, url }) => (
+export const ProductCard: React.SFC<ProductContent> = ({ src, description, name, url, buttonWord, isOuterLink }) => (
   <CardContainer>
     <CardImage src={src} />
     <CardName>{name}</CardName>
     <CardDescription>{description}</CardDescription>
     <ButtonWrapper>
-      <CustomLink to={{ pathname: url }} target={name === 'Qiita' ? '_blank' : ''} rel="noopener noreferrer">
-        <CommonGreenButton>Show more</CommonGreenButton>
+      <CustomLink to={{ pathname: url }} target={isOuterLink ? '_blank' : ''} rel="noopener noreferrer">
+        <CommonGreenButton>{buttonWord}</CommonGreenButton>
       </CustomLink>
     </ButtonWrapper>
   </CardContainer>
