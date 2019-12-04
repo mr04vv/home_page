@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
@@ -19,6 +18,7 @@ import QolabSysImage from '../../../images/product/qolabSys.jpg';
 import DomainImage from '../../../images/product/domain.png';
 import AppImage from '../../../images/product/app.png';
 import { GithubLink } from '../../../components/GithubLink';
+import { SpeakerDeck } from '../../../components/SpeakerDeck';
 
 export const Qolab = () => {
   window.scrollTo(0, 0);
@@ -70,23 +70,7 @@ export const Qolab = () => {
           />
         </VideoContainer>
         <BoldText>スライド</BoldText>
-        <div
-          style={{
-            left: 0,
-            width: '80%',
-            height: '80%',
-            position: 'relative',
-            paddingBottom: '56.1987%',
-            margin: '10px auto'
-          }}
-        >
-          <iframe
-            src="//speakerdeck.com/player/bf0b94ad657243e89cfe8ed050db9b2e"
-            style={{ border: 0, top: 0, left: 0, width: '100%', height: '80%', position: 'absolute' }}
-            frameBorder="0"
-            allowFullScreen
-          />
-        </div>
+        <SpeakerDeck width="100%" height="100%" deckId="bf0b94ad657243e89cfe8ed050db9b2e" />
       </Container>
     </ContentContainer>
   );

@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import { ContentContainer } from '../../../components/ContentContainer';
 import { Container, ProductImage, Text, BoldText, PeriodText, TweetContainer } from '../style';
@@ -15,12 +14,12 @@ export const SmartLock = () => {
       <Container>
         <ProductImage src={SmartLockImage} />
         <Text>
-          IoTハッカソンで制作した魔法の杖。杖の先についている９軸センサを用いてジェスチャを学習させ、ジェスチャを識別。
-          識別されたジェスチャから紐付けられたアクティビティが起こる。ラズパイを用いてテレビの電源切替、エアコンの電源切替、LINE、Slackなどの送信が可能。
-          また、ジェスチャとアクティビティはWebアプリを使えば自由に組み合わせを変更できる。
+          研究室の昔ながらの鍵に嫌気がさし作成したプロダクト。ICカードリーダ、サーボモーター、ラズパイ２台、M5Stack、３Dプリンターを駆使し作成。
+          登録済みのICカードをかざすと、鍵にくっついているサーボモータが回転し代わりに鍵を開けてくれる。開閉状態はM5Stackに表示されているのでひと目で確認ができる。
+          MQTTを使用して常時監視しているのでリアルタイムで更新される。
         </Text>
-        <PeriodText>製作期間：２日（IoTのハッカソンにてヒューチャーアーキテクト章を受賞）</PeriodText>
-        <PeriodText>製作人数：４人</PeriodText>
+        <PeriodText>製作期間： ３日（研究室で現在稼働中）</PeriodText>
+        <PeriodText>製作人数：１人</PeriodText>
         <BoldText>技術スタック</BoldText>
         <ProductImage src={LockSysImage} />
         <BoldText>デモ動画</BoldText>

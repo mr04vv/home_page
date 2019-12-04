@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 import { ContentContainer } from '../../../components/ContentContainer';

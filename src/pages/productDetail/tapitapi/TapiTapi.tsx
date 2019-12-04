@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react';
 import ReactPlayer from 'react-player';
 import { Link } from 'react-router-dom';
@@ -6,6 +5,7 @@ import { ContentContainer } from '../../../components/ContentContainer';
 import { Container, ProductImage, Text, BoldText, VideoContainer, LinkText, PeriodText } from '../style';
 import { content } from './content';
 import { GithubLink } from '../../../components/GithubLink';
+import { SpeakerDeck } from '../../../components/SpeakerDeck';
 
 export const TapiTapi = () => {
   window.scrollTo(0, 0);
@@ -40,23 +40,7 @@ export const TapiTapi = () => {
           />
         </VideoContainer>
         <BoldText>スライド</BoldText>
-        <div
-          style={{
-            left: 0,
-            width: '80%',
-            height: '80%',
-            position: 'relative',
-            paddingBottom: '56.1987%',
-            margin: '10px auto'
-          }}
-        >
-          <iframe
-            src="//speakerdeck.com/player/e26be4eddd4645d09ce1c79d15a6e0ca"
-            style={{ border: 0, top: 0, left: 0, width: '100%', height: '80%', position: 'absolute' }}
-            frameBorder="0"
-            allowFullScreen
-          />
-        </div>
+        <SpeakerDeck width="100%" height="100%" deckId="e26be4eddd4645d09ce1c79d15a6e0ca" />
       </Container>
     </ContentContainer>
   );
