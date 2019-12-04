@@ -10,7 +10,7 @@ export const profileContent: ProfileContent[] = [
   },
   {
     title: 'Birthday',
-    content: '2019/04/04'
+    content: '1996/04/04'
   },
   {
     title: 'From',
