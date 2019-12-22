@@ -14,18 +14,18 @@ export const galleryContent: GalleryContent[] = [
     name: 'Europe',
     src: EuropeImage,
     path: '/gallery/europe',
-    description: 'フランス,イタリアの町並み'
+    description: 'フランス・イタリアの町並み'
   },
   {
     name: 'Disney',
     src: DisneyImage,
     path: '/gallery/disney',
-    description: 'ステラルーとプーの写真集'
+    description: 'ディズニーのキャラクターたち'
   },
   {
     name: 'USJ',
     src: USJImage,
     path: '/gallery/usj',
-    description: 'ミニオンたちの写真集'
+    description: 'ミニオンが可愛すぎるギャラリー'
   }
 ];
