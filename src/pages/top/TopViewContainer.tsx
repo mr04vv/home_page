@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { Top } from './Top';
-import { TopSection, ProfileSection, WorkSection, GallerySection, ProductSection } from './style';
+import { TopSection, ProfileSection, WorkSection, GallerySection, ProductSection, AllRightReserved } from './style';
 import { Profile } from '../profile';
 import { Product } from '../product';
 import { Work } from '../work';
@@ -26,6 +26,7 @@ export const TopViewContainer: React.SFC = () => {
       <GallerySection id="gallery">
         <Gallery />
       </GallerySection>
+      <AllRightReserved>© 2019 Takuto Mori All Rights Reserved. Designed by Takuto Mori</AllRightReserved>
     </Fragment>
   );
 };
