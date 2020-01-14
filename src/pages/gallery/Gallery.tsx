@@ -9,9 +9,11 @@ import { DummyGalleyCard } from './GalleryCard/GalleryCard';
 export const Gallery = () => {
   const dummyCard = [];
 
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 3 - (galleryContent.length % 3); i++) {
-    dummyCard.push(i);
+  if (galleryContent.length % 3 !== 0) {
+    // eslint-disable-next-line no-plusplus
+    for (let i = 0; i < 3 - (galleryContent.length % 3); i++) {
+      dummyCard.push(i);
+    }
   }
   return (
     <ContentContainer>

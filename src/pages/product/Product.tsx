@@ -9,9 +9,11 @@ import { DummyProductCard } from './components/ProductCard/ProductCard';
 export const Product = () => {
   const dummyCard = [];
 
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 3 - (productContent.length % 3); i++) {
-    dummyCard.push(i);
+  if (productContent.length % 3 !== 0) {
+    // eslint-disable-next-line no-plusplus
+    for (let i = 0; i < 3 - (productContent.length % 3); i++) {
+      dummyCard.push(i);
+    }
   }
   return (
     <ContentContainer>

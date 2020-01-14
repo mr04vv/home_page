@@ -9,9 +9,11 @@ import { DummyWorkCard } from './components/WorkCard/WorkCard';
 export const Work = () => {
   const dummyCard = [];
 
-  // eslint-disable-next-line no-plusplus
-  for (let i = 0; i < 3 - (workContent.length % 3); i++) {
-    dummyCard.push(i);
+  if (workContent.length % 3 !== 0) {
+    // eslint-disable-next-line no-plusplus
+    for (let i = 0; i < 3 - (workContent.length % 3); i++) {
+      dummyCard.push(i);
+    }
   }
   return (
     <ContentContainer>
