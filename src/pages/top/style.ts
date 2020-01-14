@@ -35,7 +35,7 @@ export const GallerySection = styled.section`
 `;
 
 export const AllRightReserved = styled.p`
-  color: '#f5f5f5';
+  color: #666;
   font-size: 12px;
   text-align: center;
   margin-bottom: 40px;
