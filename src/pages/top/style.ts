@@ -33,3 +33,10 @@ export const ProductSection = styled.section`
 export const GallerySection = styled.section`
   ${SectionStyle};
 `;
+
+export const AllRightReserved = styled.p`
+  color: '#f5f5f5';
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 40px;
+`;
