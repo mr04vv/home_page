@@ -9,7 +9,8 @@ import {
   LinkText,
   DescriptionText,
   WeakText,
-  LinkIconText
+  LinkIconText,
+  LinkIcon
 } from './style';
 import MoriImage from '../../images/mori.jpeg';
 
@@ -33,9 +34,9 @@ export const GithubLink: React.SFC<Props> = ({ name, description, url }) => (
             <WeakText>github.com</WeakText>
           </LinkIconText>
         </DetailContainer>
-        <LinkIconText to={{ pathname: url }} target="_blank" rel="noopener noreferrer">
+        <LinkIcon to={{ pathname: url }} target="_blank" rel="noopener noreferrer">
           <ImageContainer src={MoriImage} alt="" />
-        </LinkIconText>
+        </LinkIcon>
       </ContentContainer>
     </Container>
   </>

@@ -14,6 +14,7 @@ import { Qolab } from './pages/productDetail/qolab';
 import { Magic } from './pages/productDetail/magic';
 import { SmartLock } from './pages/productDetail/smartLock';
 import { Ytube } from './pages/productDetail/ytube';
+import { Css } from './pages/productDetail/css';
 
 const Application = () => (
   <Fragment>
@@ -24,6 +25,7 @@ const Application = () => (
           <Route exact path="/" component={TopViewContainer} />
           <Route exact path="/works/uroom" component={Uroom} />
           <Route exact path="/works/ytube" component={Ytube} />
+          <Route exact path="/works/css" component={Css} />
           <Route exact path="/works/magic" component={Magic} />
           <Route exact path="/works/smart-lock" component={SmartLock} />
           <Route exact path="/works/qolab" component={Qolab} />

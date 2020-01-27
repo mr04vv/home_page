@@ -7,6 +7,7 @@ import TueImage from '../../images/product/tue.jpg';
 import SmartLockImage from '../../images/product/smartlock.jpg';
 import QiitaImage from '../../images/product/qiita.jpg';
 import PortfolioImage from '../../images/product/portfolio.jpg';
+import CssImage from '../../images/product/css.jpg';
 
 export interface ProductContent {
   name: string;
@@ -19,6 +20,24 @@ export interface ProductContent {
 
 const productContent: ProductContent[] = [
   {
+    name: 'わいちゅーぶ',
+    src: YtubeImage,
+    url: '/works/ytube',
+    buttonWord: 'Show more',
+    isOuterLink: false,
+    description:
+      'Youtubeで活躍するゲーム実況者YYさんの好きなシーンを共有するSNS。YYさんが投稿するYoutube動画の好きなシーンの時間を指定して投稿すると、そのシーンだけ再生されるようになる。APIはさくらのVPS上、フロントはfirebaseにある。'
+  },
+  {
+    name: 'CSSでお絵かき',
+    src: CssImage,
+    url: '/works/css',
+    buttonWord: 'Show more',
+    isOuterLink: false,
+    description:
+      'その名の通りCSSで地道にお絵かきしているサイト。CSSお絵かきが趣味と化したのでたま〜に更新しているゆるゆるサイト。ねこには制作時間３時間を費やした(笑)'
+  },
+  {
     name: 'TapiTapi',
     src: TapiTapiImage,
     buttonWord: 'Show more',
@@ -26,15 +45,6 @@ const productContent: ProductContent[] = [
     isOuterLink: false,
     description:
       'タピオカの行列を解消する注文アプリ＆POSシステム。事前にアプリで注文を済ませてQRコードを読み取れば注文完了。アプリ内のQRコードリーダーから注文コードを読み取れば注文内容が画面に表示されるので接客いらず。'
-  },
-  {
-    name: 'Ytube',
-    src: YtubeImage,
-    url: '/works/ytube',
-    buttonWord: 'Show more',
-    isOuterLink: false,
-    description:
-      'Ytubeで活躍するゲーム実況者YYさんの好きなシーンを共有するSNS。YYさんが投稿するYoutube動画の好きなシーンの時間を指定して投稿すると、そのシーンだけ再生されるようになる。APIはさくらのVPS上、フロントはfirebaseにある。'
   },
   {
     name: 'カピバライフ',

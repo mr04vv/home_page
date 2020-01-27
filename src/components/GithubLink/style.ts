@@ -26,7 +26,8 @@ export const ContentContainer = styled.div`
 export const DetailContainer = styled.div``;
 
 export const ImageContainer = styled.img`
-  height: 140px;
+  width: 100%;
+  max-width: 200px;
 `;
 
 export const LinkText = styled(Link)`
@@ -35,6 +36,17 @@ export const LinkText = styled(Link)`
   font-size: 18px;
   text-align: left;
   display: inline;
+  color: ${ICON_COLOR_DARK_GRAY};
+  :hover {
+    text-decoration: underline;
+  }
+`;
+
+export const LinkIcon = styled(Link)`
+  text-decoration: none;
+  text-align: left;
+  display: flex;
+  align-items: center;
   color: ${ICON_COLOR_DARK_GRAY};
   :hover {
     text-decoration: underline;

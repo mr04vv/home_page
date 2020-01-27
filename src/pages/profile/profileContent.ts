@@ -22,7 +22,7 @@ export const profileContent: ProfileContent[] = [
   },
   {
     title: 'Skill',
-    content: 'Typescript(React), Rails, Swift, Kotlin, Java, Golang, C#, Python, Nim, Rust'
+    content: 'Typescript(React), Rails, Swift, Kotlin'
   },
   {
     title: 'Hobby',

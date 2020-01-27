@@ -15,7 +15,7 @@ export const Ytube = () => {
       <Container>
         <ProductImage src={YtubeImage} />
         <Text>
-          Youtubeで活躍するゲーム実況者YY(わいわい)さんの好きなシーンを投稿するSNS。Youtube動画のURLと開始時間、終了時間を指定して投稿すると好きなシーンが再生されるように投稿される。検索機能もあるのでYoutubeで探さなくてもYtubeで見つかる！
+          Youtubeで活躍するゲーム実況者YY(わいわい)さんの好きなシーンを投稿するSNS。Youtube動画のURLと開始時間、終了時間を指定して投稿すると好きなシーンが再生されるように投稿される。検索機能もあるのでYoutubeで探さなくてもわいちゅーぶで見つかる！
         </Text>
         <PeriodText>製作期間：４日</PeriodText>
         <PeriodText>製作人数：１人</PeriodText>
@@ -26,7 +26,7 @@ export const Ytube = () => {
           description="Contribute to mr04vv/Ytube development by creating an account on GitHub."
         />
         <TweetContainer>
-          <TwitterTweetEmbed options={{ width: '100%' }} tweetId="1181584617213591552" />
+          <TwitterTweetEmbed options={{ width: '100%' }} tweetId="1182350480082497537" />
         </TweetContainer>
         <BoldText>認証システム構成</BoldText>
         <ProductImage src={YtubeAuthImage} />
