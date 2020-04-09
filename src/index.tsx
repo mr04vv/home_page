@@ -15,6 +15,7 @@ import { Magic } from './pages/productDetail/magic';
 import { SmartLock } from './pages/productDetail/smartLock';
 import { Ytube } from './pages/productDetail/ytube';
 import { Css } from './pages/productDetail/css';
+import { Usagi } from './pages/galleryDetail/usagi/Usagi';
 
 const Application = () => (
   <Fragment>
@@ -34,6 +35,7 @@ const Application = () => (
           <Route exact path="/gallery/disney" component={Disney} />
           <Route exact path="/gallery/europe" component={Europe} />
           <Route exact path="/gallery/usj" component={USJ} />
+          <Route exact path="/gallery/usagi" component={Usagi} />
         </Switch>
       </>
     </Router>
