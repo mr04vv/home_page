@@ -7,7 +7,7 @@ export const Container = styled.div`
   margin: 0 auto 80px;
   flex-wrap: wrap;
   flex-direction: column;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 `;
@@ -53,7 +53,7 @@ export const LinkText = styled.p`
 export const VideoContainer = styled.div`
   margin: 10px auto;
   width: 80%;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     width: '100%';
   }
 `;

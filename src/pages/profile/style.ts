@@ -11,7 +11,7 @@ export const ProfileContainer = styled.div`
 
 export const ProfileContentContainer = styled.div`
   width: 50%;
-  /* @media (max-width: 1024px) and (min-width: 421px) {
+  /* @media (max-width: 1024px) and (min-width: 501px) {
     width: 80%;
     margin: 0 auto;
   } */
@@ -26,7 +26,7 @@ export const ProfileImageContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 50%;
-  /* @media (max-width: 1024px) and (min-width: 421px) {
+  /* @media (max-width: 1024px) and (min-width: 501px) {
     width: 80%;
     margin: 0 auto;
   } */
@@ -50,7 +50,7 @@ const ProfileItemStyle = css`
   text-align: left;
   letter-spacing: 1px;
   color: ${FONT_COLOR_GRAY};
-  /* @media (max-width: 1024px) and (min-width: 421px) {
+  /* @media (max-width: 1024px) and (min-width: 501px) {
     width: 80%;
     margin: 0 auto;
   } */

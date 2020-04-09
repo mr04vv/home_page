@@ -7,8 +7,8 @@ import { Work } from '../work';
 import { Gallery } from '../gallery';
 
 export const TopViewContainer: React.SFC = () => {
-  const nameWidth = window.innerWidth < 420 ? '260' : '490';
-  const titleWidth = window.innerWidth < 420 ? '66' : '150';
+  const nameWidth = window.innerWidth < 700 ? '260' : '490';
+  const titleWidth = window.innerWidth < 700 ? '66' : '150';
   return (
     <Fragment>
       <TopSection id="section0" color="#d3f5ff">

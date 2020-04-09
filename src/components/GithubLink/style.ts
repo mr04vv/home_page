@@ -9,7 +9,7 @@ export const Container = styled.div`
   border: ${BORDER_GRAY} solid 1px;
   margin: 0 auto;
   padding: 10px;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     width: 90%;
   }
 `;
@@ -18,7 +18,7 @@ export const ContentContainer = styled.div`
   display: flex;
   justify-content: space-between;
   width: 90%;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     width: 98%;
   }
 `;

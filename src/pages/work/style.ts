@@ -6,7 +6,7 @@ export const Container = styled.div`
   margin: 0 auto;
   justify-content: space-between;
   flex-wrap: wrap;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     width: 100%;
   }
 `;

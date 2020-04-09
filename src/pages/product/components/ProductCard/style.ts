@@ -5,23 +5,23 @@ export const CardContainer = styled.div`
   width: 32%;
   height: auto;
   margin: 30px 0;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     width: 90%;
     margin: 10px auto;
   }
-  @media (max-width: 1024px) and (min-width: 421px) {
+  @media (max-width: 1024px) and (min-width: 501px) {
     width: 45%;
-    margin: 12px auto;
+    margin: 12px 0;
   }
 `;
 
 export const CardImage = styled.img`
   width: 100%;
   height: 16vw;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     height: unset;
   }
-  @media (max-width: 1024px) and (min-width: 421px) {
+  @media (max-width: 1024px) and (min-width: 501px) {
     height: 22vw;
   }
 `;
@@ -65,7 +65,7 @@ export const CardDescription = styled.p`
     height: 100%;
     background-color: inherit;
   }
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     height: auto;
     :before {
       content: '';
@@ -76,7 +76,7 @@ export const CardDescription = styled.p`
       width: 1em;
     }
   }
-  @media (max-width: 1024px) and (min-width: 421px) {
+  @media (max-width: 1024px) and (min-width: 501px) {
     height: 14vh;
   }
 `;
@@ -85,10 +85,10 @@ export const ButtonWrapper = styled.div`
   height: 5vh;
   width: 100%;
   color: white;
-  @media (max-width: 420px) {
+  @media (max-width: 500px) {
     margin: 16px auto;
   }
-  @media (max-width: 1024px) and (min-width: 421px) {
+  @media (max-width: 1024px) and (min-width: 501px) {
     width: 100%;
   }
 `;
