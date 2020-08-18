@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React from 'react';
+import React, { useState } from 'react';
 import { ContentContainer } from '../../../components/ContentContainer';
 import { Container, ProductImage, Text, BoldText, PeriodText, TweetContainer, BadgeContainer } from '../style';
 import PoskoreImage1 from '../../../images/product/postCollection.png';
@@ -7,17 +7,18 @@ import PoskoreImage2 from '../../../images/product/postCollection2.png';
 import PoskoreImage3 from '../../../images/product/postCollection3.png';
 import PoskoreImage4 from '../../../images/product/postCollection4.png';
 
-let isLoadwidgets = false;
 export const PostCollection = () => {
   window.scrollTo(0, 0);
+  const [isLoadwidgets, setIsLoad] = useState<boolean>(false);
   React.useEffect(() => {
     if (!isLoadwidgets) {
       const s = document.createElement('script');
       s.setAttribute('src', 'https://platform.twitter.com/widgets.js');
       document.body.appendChild(s);
-      isLoadwidgets = true;
+      setIsLoad(true);
     }
-  }, []);
+  }, [isLoadwidgets]);
+
   return (
     <ContentContainer>
       <Container>
@@ -42,9 +43,7 @@ export const PostCollection = () => {
           />
           <a
             style={{ marginTop: '-10px' }}
-            href={
-              'https://play.google.com/store/apps/details?id=com.mooriii.PostCollection&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
-            }
+            href="https://play.google.com/store/apps/details?id=com.mooriii.PostCollection&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
           >
             <img
               width="155"

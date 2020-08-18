@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
-import React from 'react';
+import React, { useState } from 'react';
 import { ContentContainer } from '../../../components/ContentContainer';
 import { Container, ProductImage, Text, BoldText, PeriodText, TweetContainer, BadgeContainer } from '../style';
 import YtubeImage from '../../../images/product/waikore1.png';
@@ -8,17 +8,17 @@ import WaikoreImage2 from '../../../images/product/waikore2.png';
 import WaikoreImage3 from '../../../images/product/waikore3.png';
 import WaikoreImage4 from '../../../images/product/waikore4.png';
 
-let isLoadwidgets = false;
 export const Ytube = () => {
   window.scrollTo(0, 0);
+  const [isLoadwidgets, setIsLoad] = useState<boolean>(false);
   React.useEffect(() => {
     if (!isLoadwidgets) {
       const s = document.createElement('script');
       s.setAttribute('src', 'https://platform.twitter.com/widgets.js');
       document.body.appendChild(s);
-      isLoadwidgets = true;
+      setIsLoad(true);
     }
-  }, []);
+  }, [isLoadwidgets]);
   return (
     <ContentContainer>
       <Container>

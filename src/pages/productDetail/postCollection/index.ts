@@ -1,1 +1,1 @@
-export { PostCollection } from './PostCollection';
+export { PostCollection } from './PostCollections';
