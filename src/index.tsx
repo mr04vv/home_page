@@ -6,7 +6,7 @@ import { StylesProvider } from '@material-ui/core';
 import registerServiceWorker from './registerServiceWorker';
 import { TopViewContainer } from './pages/top';
 import { Header } from './components/Header';
-import { Disney, Europe, USJ } from './pages/galleryDetail';
+import { Disney, Europe, USJ, Youtube, Usagi } from './pages/galleryDetail';
 import { TapiTapi } from './pages/productDetail/tapitapi';
 import { Capybalife } from './pages/productDetail/capybalife';
 import { Uroom } from './pages/productDetail/uroom';
@@ -15,7 +15,7 @@ import { Magic } from './pages/productDetail/magic';
 import { SmartLock } from './pages/productDetail/smartLock';
 import { Ytube } from './pages/productDetail/ytube';
 import { Css } from './pages/productDetail/css';
-import { Usagi } from './pages/galleryDetail/usagi/Usagi';
+import { PostCollection } from './pages/productDetail/postCollection';
 
 const Application = () => (
   <Fragment>
@@ -26,6 +26,7 @@ const Application = () => (
           <Route exact path="/" component={TopViewContainer} />
           <Route exact path="/works/uroom" component={Uroom} />
           <Route exact path="/works/ytube" component={Ytube} />
+          <Route exact path="/works/post_collection" component={PostCollection} />
           <Route exact path="/works/css" component={Css} />
           <Route exact path="/works/magic" component={Magic} />
           <Route exact path="/works/smart-lock" component={SmartLock} />
@@ -36,6 +37,7 @@ const Application = () => (
           <Route exact path="/gallery/europe" component={Europe} />
           <Route exact path="/gallery/usj" component={USJ} />
           <Route exact path="/gallery/usagi" component={Usagi} />
+          <Route exact path="/gallery/youtube" component={Youtube} />
         </Switch>
       </>
     </Router>

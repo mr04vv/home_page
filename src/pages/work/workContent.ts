@@ -21,7 +21,7 @@ const productContent: WorkContent[] = [
     period: '2016/08~2018/04',
     url: 'https://redimpulz.com/',
     description:
-      'Golangで自社サービスのAPIを作成や、受託でマイコンを使用したIoTのシステムを開発。役職に問わずバックエンドやフロント、アプリ開発など様々な開発を経験した。'
+      'Golangで自社サービスのAPIを作成や、受託でマイコンを使用したIoTのシステムを開発。役職に問わずバックエンドやフロント、アプリ開発など様々な開発を経験した。',
   },
   {
     name: '株式会社POL',
@@ -30,7 +30,7 @@ const productContent: WorkContent[] = [
     position: 'バックエンド/フロント',
     period: '2017/01~2018/04',
     description:
-      '理系就活マッチングサービスLabbaseの理系就活メディア（現在のLabbase）立ち上げに参画。HTMLを返すシステムからAPIとフロントに分ける作業に携わりJavaでAPIを、Reactでフロントを担当。'
+      '理系就活マッチングサービスLabbaseの理系就活メディア（現在のLabbase）立ち上げに参画。HTMLを返すシステムからAPIとフロントに分ける作業に携わりJavaでAPIを、Reactでフロントを担当。',
   },
   {
     name: 'freee株式会社',
@@ -39,7 +39,7 @@ const productContent: WorkContent[] = [
     period: '2019/08/19~08/29',
     url: 'https://corp.freee.co.jp/',
     description:
-      '２週間のチーム開発インターンシップに参加。Productで紹介している「カピバライフ」という勤怠管理アプリを作成。FreeeAPIを使用して簡単に勤怠管理をできるアプリを作成した。'
+      '２週間のチーム開発インターンシップに参加。Productで紹介している「カピバライフ」という勤怠管理アプリを作成。FreeeAPIを使用して簡単に勤怠管理をできるアプリを作成した。',
   },
   {
     name: '株式会社AbemaTV',
@@ -48,17 +48,17 @@ const productContent: WorkContent[] = [
     url: 'https://abematv.co.jp/',
     period: '2019/11/07~11/29',
     description:
-      'CyberAgent株式会社の就業型インターンCATechJOBでAbemaTVのフロントエンドに配属。ブラウザ版のAbemaTVのUX改善や、新規ページの設計から実装まで携わる。'
+      'CyberAgent株式会社の就業型インターンCATechJOBでAbemaTVのフロントエンドに配属。ブラウザ版のAbemaTVのUX改善や、新規ページの設計から実装まで携わる。',
   },
   {
     name: '株式会社Canuu',
     src: CanuuImage,
     url: 'https://canuu-inc.studio.design/',
-    position: 'バックエンド/フロント/iOS/インフラ',
+    position: 'バックエンド/フロント/iOS/Android/インフラ',
     period: '2019/07~',
     description:
-      'CanuuのサービスBaity(バイティー)のクライアント画面をほぼ一人でReactで作成。またバックエンドやiOSアプリの開発も担当。AWSを使用した簡単なインフラの構築も経験。'
-  }
+      'CanuuのサービスBaity(バイティー)のクライアント画面をほぼ一人でReactで作成。またバックエンドやiOS/Androidアプリの開発も担当。AWSを使用した簡単なインフラの構築も経験。',
+  },
 ];
 
 export default productContent;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { FONT_COLOR_GRAY } from '../../styles/color';
+import { FONT_COLOR_GRAY } from '../../../styles/color';
 
 export const Container = styled.div`
   display: flex;
@@ -61,10 +61,5 @@ export const VideoContainer = styled.div`
 export const TweetContainer = styled.div`
   display: flex;
   width: 100%;
-  justify-content: center;
-`;
-
-export const BadgeContainer = styled.div`
-  display: flex;
   justify-content: center;
 `;
