@@ -16,6 +16,7 @@ import { SmartLock } from './pages/productDetail/smartLock';
 import { Ytube } from './pages/productDetail/ytube';
 import { Css } from './pages/productDetail/css';
 import { PostCollection } from './pages/productDetail/postCollection';
+import { SocialDock } from './pages/productDetail/socialDock';
 
 const Application = () => (
   <Fragment>
@@ -33,6 +34,7 @@ const Application = () => (
           <Route exact path="/works/qolab" component={Qolab} />
           <Route exact path="/works/capybalife" component={Capybalife} />
           <Route exact path="/works/tapitapi" component={TapiTapi} />
+          <Route exact path="/works/socialdock" component={SocialDock} />
           <Route exact path="/gallery/disney" component={Disney} />
           <Route exact path="/gallery/europe" component={Europe} />
           <Route exact path="/gallery/usj" component={USJ} />

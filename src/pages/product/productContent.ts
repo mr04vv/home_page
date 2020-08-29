@@ -9,6 +9,7 @@ import QiitaImage from '../../images/product/qiita.jpg';
 import PortfolioImage from '../../images/product/portfolio.jpg';
 import CssImage from '../../images/product/css.jpg';
 import PostCollectionImage from '../../images/product/postCollection1.png';
+import SocialDockImage from '../../images/product/HackU2020.png';
 
 export interface ProductContent {
   name: string;
@@ -37,6 +38,15 @@ const productContent: ProductContent[] = [
     isOuterLink: false,
     description:
       'YouTubeの好きなシーンや後で見返したいツイートなどをメモして管理するアプリ。タグ管理や検索機能で見たいシーンや見返したいツイートがすぐ見つかるようになる。YouTubeは時間を指定することによって、見たいシーンから再生することができる。',
+  },
+  {
+    name: 'SocialDock',
+    src: SocialDockImage,
+    url: '/works/socialdock',
+    buttonWord: 'Show more',
+    isOuterLink: false,
+    description:
+      '様々なSNSの新着投稿を一つのタイムラインで管理できるアプリケーション。リストを作成してアカウントを追加すれば、追加したアカウントだけの新着投稿をタイムラインで確認することができる。',
   },
   {
     name: 'CSSでお絵かき',
