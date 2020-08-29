@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9edc868.chunk.css",
-    "main.js": "/static/js/main.897e20ca.chunk.js",
-    "main.js.map": "/static/js/main.897e20ca.chunk.js.map",
+    "main.css": "/static/css/main.820d5cf0.chunk.css",
+    "main.js": "/static/js/main.c3ae4e01.chunk.js",
+    "main.js.map": "/static/js/main.c3ae4e01.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca8fb2b8.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca8fb2b8.js.map",
-    "static/js/2.36f45c4a.chunk.js": "/static/js/2.36f45c4a.chunk.js",
-    "static/js/2.36f45c4a.chunk.js.map": "/static/js/2.36f45c4a.chunk.js.map",
+    "static/js/2.b8b08d70.chunk.js": "/static/js/2.b8b08d70.chunk.js",
+    "static/js/2.b8b08d70.chunk.js.map": "/static/js/2.b8b08d70.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.d0d7b48ee42f826a09dcc721ec9abd20.js": "/precache-manifest.d0d7b48ee42f826a09dcc721ec9abd20.js",
+    "precache-manifest.426e4503875929006d76507fdeda198f.js": "/precache-manifest.426e4503875929006d76507fdeda198f.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a9edc868.chunk.css.map": "/static/css/main.a9edc868.chunk.css.map",
+    "static/css/main.820d5cf0.chunk.css.map": "/static/css/main.820d5cf0.chunk.css.map",
+    "static/media/HackU2020.png": "/static/media/HackU2020.0d42d3bf.png",
     "static/media/abema.jpg": "/static/media/abema.a2be0d08.jpg",
     "static/media/app.png": "/static/media/app.2c7eee86.png",
     "static/media/auth.jpg": "/static/media/auth.bf7baec1.jpg",
@@ -68,6 +69,7 @@
     "static/media/qolabSys.jpg": "/static/media/qolabSys.b4a07616.jpg",
     "static/media/redimpulz.jpg": "/static/media/redimpulz.faf21634.jpg",
     "static/media/smartlock.jpg": "/static/media/smartlock.412e958c.jpg",
+    "static/media/socialdock_tech.png": "/static/media/socialdock_tech.20cd53b5.png",
     "static/media/tapitapi.jpg": "/static/media/tapitapi.ab5f68ef.jpg",
     "static/media/tapitapitech.jpg": "/static/media/tapitapitech.54267542.jpg",
     "static/media/tue.jpg": "/static/media/tue.f04733b2.jpg",
@@ -100,12 +102,13 @@
     "static/media/waikore2.png": "/static/media/waikore2.2796ef49.png",
     "static/media/waikore3.png": "/static/media/waikore3.1868a854.png",
     "static/media/waikore4.png": "/static/media/waikore4.a105318b.png",
+    "static/media/xd.png": "/static/media/xd.27aeb0a4.png",
     "static/media/youtube.jpg": "/static/media/youtube.3adc743d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca8fb2b8.js",
-    "static/js/2.36f45c4a.chunk.js",
-    "static/css/main.a9edc868.chunk.css",
-    "static/js/main.897e20ca.chunk.js"
+    "static/js/2.b8b08d70.chunk.js",
+    "static/css/main.820d5cf0.chunk.css",
+    "static/js/main.c3ae4e01.chunk.js"
   ]
 }
