@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ContentContainer } from '../../../components/ContentContainer';
 import { Container, ProductImage, Text, BoldText, PeriodText, LinkText } from '../style';
 import SocialDockImage from '../../../images/product/HackU2020.png';
 import LockSysImage from '../../../images/product/socialdock_tech.png';
 import XdImage from '../../../images/product/xd.png';
-import { Link } from 'react-router-dom';
 
 export const SocialDock = () => {
   window.scrollTo(0, 0);
