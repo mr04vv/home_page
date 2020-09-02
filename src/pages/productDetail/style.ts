@@ -61,6 +61,8 @@ export const VideoContainer = styled.div`
 export const TweetContainer = styled.div`
   display: flex;
   width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
   justify-content: center;
 `;
 

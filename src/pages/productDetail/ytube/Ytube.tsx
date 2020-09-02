@@ -3,7 +3,9 @@ import React, { useState } from 'react';
 import { ContentContainer } from '../../../components/ContentContainer';
 import { Container, ProductImage, Text, BoldText, PeriodText, TweetContainer, BadgeContainer } from '../style';
 import YtubeImage from '../../../images/product/waikore1.png';
-import YtubeAuthImage from '../../../images/product/auth.jpg';
+import YtubeAuthImage from '../../../images/product/auth1.png';
+import YtubeAuth2Image from '../../../images/product/auth2.png';
+import YtubeAuth3Image from '../../../images/product/auth3.png';
 import WaikoreImage2 from '../../../images/product/waikore2.png';
 import WaikoreImage3 from '../../../images/product/waikore3.png';
 import WaikoreImage4 from '../../../images/product/waikore4.png';
@@ -75,9 +77,25 @@ export const Ytube = () => {
           </blockquote>
           <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
         </TweetContainer>
+        <TweetContainer>
+          <a
+            className="twitter-timeline"
+            data-width="600"
+            data-height="600"
+            data-theme="light"
+            href="https://twitter.com/yy_collection?ref_src=twsrc%5Etfw"
+          >
+            Tweets by yy_collection
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charSet="utf-8" />
+        </TweetContainer>
 
         <BoldText>認証システム構成</BoldText>
         <ProductImage src={YtubeAuthImage} />
+        <div style={{ margin: '4px' }} />
+        <ProductImage src={YtubeAuth2Image} />
+        <div style={{ margin: '4px' }} />
+        <ProductImage src={YtubeAuth3Image} />
         <BoldText>説明画像</BoldText>
         <ProductImage src={YtubeImage} />
         <div style={{ margin: '4px' }} />
