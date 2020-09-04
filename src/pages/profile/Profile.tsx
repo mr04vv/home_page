@@ -13,7 +13,7 @@ import {
   ProfileImage,
   IconContainer,
 } from './style';
-import ProfileImg from '../../images/profile/profile3.jpg';
+import ProfileImg from '../../images/profile/profile4.png';
 import { profileContent, ProfileContent } from './profileContent';
 import { ICON_COLOR_DARK_GRAY } from '../../styles/color';
 
