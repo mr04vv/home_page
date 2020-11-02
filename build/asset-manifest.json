@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.820d5cf0.chunk.css",
-    "main.js": "/static/js/main.df79bd78.chunk.js",
-    "main.js.map": "/static/js/main.df79bd78.chunk.js.map",
+    "main.css": "/static/css/main.a9edc868.chunk.css",
+    "main.js": "/static/js/main.6dd1e8d3.chunk.js",
+    "main.js.map": "/static/js/main.6dd1e8d3.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ca8fb2b8.js",
     "runtime-main.js.map": "/static/js/runtime-main.ca8fb2b8.js.map",
-    "static/js/2.1de1e6ca.chunk.js": "/static/js/2.1de1e6ca.chunk.js",
-    "static/js/2.1de1e6ca.chunk.js.map": "/static/js/2.1de1e6ca.chunk.js.map",
+    "static/js/2.1dc97a67.chunk.js": "/static/js/2.1dc97a67.chunk.js",
+    "static/js/2.1dc97a67.chunk.js.map": "/static/js/2.1dc97a67.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.abf1e2670420da41451ef9929e031d31.js": "/precache-manifest.abf1e2670420da41451ef9929e031d31.js",
+    "precache-manifest.a96b99653071f10981653316411dbb3c.js": "/precache-manifest.a96b99653071f10981653316411dbb3c.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.820d5cf0.chunk.css.map": "/static/css/main.820d5cf0.chunk.css.map",
+    "static/css/main.a9edc868.chunk.css.map": "/static/css/main.a9edc868.chunk.css.map",
     "static/media/HackU2020.png": "/static/media/HackU2020.0d42d3bf.png",
     "static/media/abema.jpg": "/static/media/abema.a2be0d08.jpg",
     "static/media/app.png": "/static/media/app.2c7eee86.png",
@@ -100,17 +100,22 @@
     "static/media/usj7.jpg": "/static/media/usj7.0f941278.jpg",
     "static/media/usj8.jpg": "/static/media/usj8.52e358c5.jpg",
     "static/media/usj9.jpg": "/static/media/usj9.5bff652a.jpg",
+    "static/media/waikore.jpg": "/static/media/waikore.206f54bc.jpg",
     "static/media/waikore1.png": "/static/media/waikore1.835fdcb9.png",
     "static/media/waikore2.png": "/static/media/waikore2.2796ef49.png",
     "static/media/waikore3.png": "/static/media/waikore3.1868a854.png",
     "static/media/waikore4.png": "/static/media/waikore4.a105318b.png",
+    "static/media/waikore_re.jpeg": "/static/media/waikore_re.94eb43b1.jpeg",
+    "static/media/waikore_re2.jpeg": "/static/media/waikore_re2.60f53cbe.jpeg",
+    "static/media/waikore_re3.jpeg": "/static/media/waikore_re3.e2ce4116.jpeg",
+    "static/media/waikore_re4.jpeg": "/static/media/waikore_re4.c987f578.jpeg",
     "static/media/xd.png": "/static/media/xd.27aeb0a4.png",
     "static/media/youtube.jpg": "/static/media/youtube.3adc743d.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ca8fb2b8.js",
-    "static/js/2.1de1e6ca.chunk.js",
-    "static/css/main.820d5cf0.chunk.css",
-    "static/js/main.df79bd78.chunk.js"
+    "static/js/2.1dc97a67.chunk.js",
+    "static/css/main.a9edc868.chunk.css",
+    "static/js/main.6dd1e8d3.chunk.js"
   ]
 }
