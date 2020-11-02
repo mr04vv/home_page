@@ -31,7 +31,7 @@ export const Ytube = () => {
       <Container>
         <ProductImage src={YtubeImage} />
         <Text>
-          Youtubeで活躍するゲーム実況者YY(わいわい)さんの好きなシーンを投稿するSNS。Youtube動画のURLと開始時間、終了時間を指定して投稿すると好きなシーンが再生されるように投稿される。検索機能もあるのでYoutubeで探さなくてもわいコレで見つかる！現在ユーザー数473人(ログイン済)
+          Youtubeで活躍するゲーム実況者YY(わいわい)さんの好きなシーンを投稿するSNS。Youtube動画のURLと開始時間、終了時間を指定して投稿すると好きなシーンが再生されるように投稿される。検索機能もあるのでYoutubeで探さなくてもわいコレで見つかる！ログインユーザー数3675人。投稿数2402(11/2現在)
         </Text>
         <PeriodText>製作期間：４日(Web), ７日(App)</PeriodText>
         <PeriodText>製作人数：１人</PeriodText>
