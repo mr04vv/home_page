@@ -12,8 +12,19 @@ export const Container = styled.div`
   }
 `;
 
+export const ProductSubImage = styled.img`
+  @media (max-width: 500px) {
+    width: 90%;
+    margin: 4px auto;
+  }
+  @media (min-width: 501px) {
+    width: 45%;
+    margin: 12px 0;
+  }
+`;
+
 export const ProductImage = styled.img`
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 `;
 
@@ -69,4 +80,11 @@ export const TweetContainer = styled.div`
 export const BadgeContainer = styled.div`
   display: flex;
   justify-content: center;
+`;
+
+export const ImageListContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
 `;

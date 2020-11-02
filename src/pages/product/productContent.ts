@@ -1,5 +1,5 @@
 import UroomImage from '../../images/product/uroomTop.jpg';
-import YtubeImage from '../../images/product/waikore1.png';
+import YtubeImage from '../../images/product/waikore.jpg';
 import TapiTapiImage from '../../images/product/tapitapi.jpg';
 import CapybalifeImage from '../../images/product/capybalife.jpg';
 import QolabImage from '../../images/product/qolab.jpg';

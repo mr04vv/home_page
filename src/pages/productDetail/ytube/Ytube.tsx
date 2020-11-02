@@ -1,11 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React, { useState } from 'react';
 import { ContentContainer } from '../../../components/ContentContainer';
-import { Container, ProductImage, Text, BoldText, PeriodText, TweetContainer, BadgeContainer } from '../style';
-import YtubeImage from '../../../images/product/waikore1.png';
+import { Container, ProductImage, Text, BoldText, PeriodText, TweetContainer, BadgeContainer, ImageListContainer, ProductSubImage } from '../style';
+import YtubeImage from '../../../images/product/waikore.jpg';
+import RenewImage from '../../../images/product/waikore_re.jpeg';
+import RenewImage2 from '../../../images/product/waikore_re2.jpeg';
+import RenewImage3 from '../../../images/product/waikore_re3.jpeg';
+import RenewImage4 from '../../../images/product/waikore_re4.jpeg';
 import YtubeAuthImage from '../../../images/product/auth1.png';
 import YtubeAuth2Image from '../../../images/product/auth2.png';
 import YtubeAuth3Image from '../../../images/product/auth3.png';
+import WaikoreImage1 from '../../../images/product/waikore1.png';
 import WaikoreImage2 from '../../../images/product/waikore2.png';
 import WaikoreImage3 from '../../../images/product/waikore3.png';
 import WaikoreImage4 from '../../../images/product/waikore4.png';
@@ -91,19 +96,25 @@ export const Ytube = () => {
         </TweetContainer>
 
         <BoldText>認証システム構成</BoldText>
-        <ProductImage src={YtubeAuthImage} />
-        <div style={{ margin: '4px' }} />
-        <ProductImage src={YtubeAuth2Image} />
-        <div style={{ margin: '4px' }} />
-        <ProductImage src={YtubeAuth3Image} />
+        <ImageListContainer>
+          <ProductSubImage src={YtubeAuthImage} />
+          <ProductSubImage src={YtubeAuth2Image} />
+          <ProductSubImage src={YtubeAuth3Image} />
+        </ImageListContainer>
         <BoldText>説明画像</BoldText>
-        <ProductImage src={YtubeImage} />
-        <div style={{ margin: '4px' }} />
-        <ProductImage src={WaikoreImage2} />
-        <div style={{ margin: '4px' }} />
-        <ProductImage src={WaikoreImage3} />
-        <div style={{ margin: '4px' }} />
-        <ProductImage src={WaikoreImage4} />
+        <ImageListContainer>
+          <ProductSubImage src={WaikoreImage1} />
+          <ProductSubImage src={WaikoreImage2} />
+          <ProductSubImage src={WaikoreImage3} />
+          <ProductSubImage src={WaikoreImage4} />
+        </ImageListContainer>
+        <BoldText>リニューアルしました</BoldText>
+        <ImageListContainer>
+          <ProductSubImage src={RenewImage} />
+          <ProductSubImage src={RenewImage2} />
+          <ProductSubImage src={RenewImage3} />
+          <ProductSubImage src={RenewImage4} />
+        </ImageListContainer>
       </Container>
     </ContentContainer>
   );
