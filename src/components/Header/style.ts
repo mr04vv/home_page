@@ -5,11 +5,11 @@ import { HashLink } from 'react-router-hash-link';
 export const CustomAppBar = styled(AppBar)`
   margin: 20px auto;
   width: 90%;
-  border-radius: 30px;
+  border-radius: 8px;
   left: 20px;
   right: 20px;
   box-shadow: none;
-  background-color: #eee;
+  background-color: #fff7e6;
 `;
 
 export const Title = styled.p`

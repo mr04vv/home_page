@@ -7,12 +7,14 @@ import { Work } from '../work';
 import { Gallery } from '../gallery';
 
 export const TopViewContainer: React.SFC = () => {
-  const nameWidth = window.innerWidth < 700 ? '260' : '490';
-  const titleWidth = window.innerWidth < 700 ? '66' : '150';
+  // const nameWidth = window.innerWidth < 700 ? '260' : '490';
+  // const titleWidth = window.innerWidth < 700 ? '66' : '150';
+  const nameSize = window.innerWidth < 700 ? 28 : 44;
+  const titleSize = window.innerWidth < 700 ? 20 : 32;
   return (
     <Fragment>
-      <TopSection id="section0" color="#d3f5ff">
-        <Top nameWidth={nameWidth} titleWidth={titleWidth} />
+      <TopSection id="section0" color="#FFBA00">
+        <Top nameSize={nameSize} titleSize={titleSize} />
       </TopSection>
       <ProfileSection id="profile" color="#ffe9c3">
         <Profile />

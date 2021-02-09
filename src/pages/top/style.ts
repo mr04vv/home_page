@@ -12,6 +12,7 @@ const SectionStyle = css`
 export const TopSection = styled.section`
   height: 100vh;
   ${SectionStyle};
+  background-color: #FFB001;
   display: flex;
   justify-content: center;
   align-items: center;

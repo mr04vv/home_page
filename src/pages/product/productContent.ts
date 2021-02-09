@@ -6,7 +6,7 @@ import QolabImage from '../../images/product/qolab.jpg';
 import TueImage from '../../images/product/tue.jpg';
 import SmartLockImage from '../../images/product/smartlock.jpg';
 import QiitaImage from '../../images/product/qiita.jpg';
-import PortfolioImage from '../../images/product/portfolio.jpg';
+import PortfolioImage from '../../images/product/portfolio.png';
 import CssImage from '../../images/product/css.jpg';
 import PostCollectionImage from '../../images/product/postCollection1.png';
 import SocialDockImage from '../../images/product/HackU2020.png';
@@ -119,7 +119,7 @@ const productContent: ProductContent[] = [
     buttonWord: 'ソースコードはこちら',
     isOuterLink: true,
     description:
-      'このサイト。ReactとTypescriptで１から作成されており、この度Jsからの完全移行に成功した。デザインセンスはないため適当だが各プロダクトのサムネだけXDで作成。さくらのVPSでホスティングされていてnginxを介して配信されている。',
+      'このサイト。ReactとTypescriptで１から作成されており、この度Jsからの完全移行に成功した。デザインセンスはないため適当だが各プロダクトのサムネだけXDで作成。Firebase Hostingを用いて配信。',
   },
   {
     name: 'Qiita',
