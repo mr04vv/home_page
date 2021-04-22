@@ -5,12 +5,15 @@ export const ProfileContainer = styled.div`
   display: flex;
   justify-content: space-between;
   @media (max-width: 624px) {
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
 `;
 
 export const ProfileContentContainer = styled.div`
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   /* @media (max-width: 1024px) and (min-width: 501px) {
     width: 80%;
     margin: 0 auto;
@@ -23,9 +26,10 @@ export const ProfileContentContainer = styled.div`
 
 export const ProfileImageContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
   width: 50%;
+  max-height: 360px;
   /* @media (max-width: 1024px) and (min-width: 501px) {
     width: 80%;
     margin: 0 auto;
@@ -37,7 +41,7 @@ export const ProfileImageContainer = styled.div`
 `;
 
 export const ProfileImage = styled.img`
-  width: 80%;
+  max-height: 420px;
   @media (max-width: 624px) {
     width: 90%;
     margin: 0 auto;

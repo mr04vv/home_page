@@ -13,7 +13,7 @@ import {
   ProfileImage,
   IconContainer,
 } from './style';
-import ProfileImg from '../../images/profile/profile4.png';
+import ProfileImg from '../../images/profile/profile5.jpg';
 import { profileContent, ProfileContent } from './profileContent';
 import { ICON_COLOR_DARK_GRAY } from '../../styles/color';
 
@@ -21,6 +21,9 @@ export const Profile = () => (
   <ContentContainer>
     <Heading>Profile</Heading>
     <ProfileContainer>
+      <ProfileImageContainer>
+        <ProfileImage src={ProfileImg} />
+      </ProfileImageContainer>
       <ProfileContentContainer>
         {profileContent.map((p: ProfileContent) => (
           <div key={p.title}>
@@ -29,9 +32,6 @@ export const Profile = () => (
           </div>
         ))}
       </ProfileContentContainer>
-      <ProfileImageContainer>
-        <ProfileImage src={ProfileImg} />
-      </ProfileImageContainer>
     </ProfileContainer>
     <IconContainer>
       <Link to={{ pathname: 'https://www.facebook.com/mr04vv' }} target="_blank" rel="noopener noreferrer">
