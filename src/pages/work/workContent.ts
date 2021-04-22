@@ -3,6 +3,7 @@ import RedimpulzImage from '../../images/work/redimpulz.jpg';
 import AbemaImage from '../../images/work/abema.jpg';
 import FreeeImage from '../../images/work/freee.jpg';
 import LabbaseImage from '../../images/work/labbase.jpg';
+import AtraeImage from '../../images/work/atrae.jpg';
 
 export interface WorkContent {
   name: string;
@@ -55,9 +56,18 @@ const productContent: WorkContent[] = [
     src: CanuuImage,
     url: 'https://canuu-inc.studio.design/',
     position: 'バックエンド/フロント/iOS/Android/インフラ',
-    period: '2019/07~',
+    period: '2019/07~2021/02',
     description:
       'CanuuのサービスBaity(バイティー)のクライアント画面をほぼ一人でReactで作成。またバックエンドやiOS/Androidアプリの開発も担当。AWSを使用した簡単なインフラの構築も経験。',
+  },
+  {
+    name: '株式会社アトラエ',
+    src: AtraeImage,
+    url: 'https://atrae.co.jp/',
+    position: 'フロントエンド',
+    period: '2021/04~',
+    description:
+      '従業員のエンゲージメント(働きがい)を可視化して、組織改善を促進するwevoxというサービスのフロントエンドを担当。',
   },
 ];
 
